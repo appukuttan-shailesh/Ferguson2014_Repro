@@ -1,0 +1,218 @@
+[
+    {
+        "final_f": "0.0 Hz",
+        "i_inj": "-50 pA",
+        "initial_f": "0.0 Hz",
+        "mean_f": "0 Hz"
+    },
+    {
+        "final_f": "0.0 Hz",
+        "i_inj": "-40 pA",
+        "initial_f": "0.0 Hz",
+        "mean_f": "0 Hz"
+    },
+    {
+        "final_f": "0.0 Hz",
+        "i_inj": "-30 pA",
+        "initial_f": "0.0 Hz",
+        "mean_f": "0 Hz"
+    },
+    {
+        "final_f": "0.0 Hz",
+        "i_inj": "-20 pA",
+        "initial_f": "0.0 Hz",
+        "mean_f": "0 Hz"
+    },
+    {
+        "final_f": "0.0 Hz",
+        "i_inj": "-10 pA",
+        "initial_f": "0.0 Hz",
+        "mean_f": "0 Hz"
+    },
+    {
+        "final_f": "0.0 Hz",
+        "i_inj": "0 pA",
+        "initial_f": "0.0 Hz",
+        "mean_f": "0 Hz"
+    },
+    {
+        "final_f": "2.23 Hz",
+        "i_inj": "10 pA",
+        "initial_f": "2.23 Hz",
+        "mean_f": "2 Hz"
+    },
+    {
+        "final_f": "2.43 Hz",
+        "i_inj": "20 pA",
+        "initial_f": "8.73 Hz",
+        "mean_f": "4 Hz"
+    },
+    {
+        "final_f": "3.38 Hz",
+        "i_inj": "30 pA",
+        "initial_f": "15.63 Hz",
+        "mean_f": "5 Hz"
+    },
+    {
+        "final_f": "4.21 Hz",
+        "i_inj": "40 pA",
+        "initial_f": "21.93 Hz",
+        "mean_f": "7 Hz"
+    },
+    {
+        "final_f": "5.14 Hz",
+        "i_inj": "50 pA",
+        "initial_f": "27.7 Hz",
+        "mean_f": "9 Hz"
+    },
+    {
+        "final_f": "6.11 Hz",
+        "i_inj": "60 pA",
+        "initial_f": "33.22 Hz",
+        "mean_f": "10 Hz"
+    },
+    {
+        "final_f": "7.06 Hz",
+        "i_inj": "70 pA",
+        "initial_f": "38.17 Hz",
+        "mean_f": "12 Hz"
+    },
+    {
+        "final_f": "8.03 Hz",
+        "i_inj": "80 pA",
+        "initial_f": "43.1 Hz",
+        "mean_f": "14 Hz"
+    },
+    {
+        "final_f": "9.01 Hz",
+        "i_inj": "90 pA",
+        "initial_f": "47.85 Hz",
+        "mean_f": "15 Hz"
+    },
+    {
+        "final_f": "9.98 Hz",
+        "i_inj": "100 pA",
+        "initial_f": "52.36 Hz",
+        "mean_f": "17 Hz"
+    },
+    {
+        "final_f": "10.95 Hz",
+        "i_inj": "110 pA",
+        "initial_f": "56.82 Hz",
+        "mean_f": "19 Hz"
+    },
+    {
+        "final_f": "11.95 Hz",
+        "i_inj": "120 pA",
+        "initial_f": "60.98 Hz",
+        "mean_f": "20 Hz"
+    },
+    {
+        "final_f": "12.92 Hz",
+        "i_inj": "130 pA",
+        "initial_f": "64.94 Hz",
+        "mean_f": "22 Hz"
+    },
+    {
+        "final_f": "13.89 Hz",
+        "i_inj": "140 pA",
+        "initial_f": "68.97 Hz",
+        "mean_f": "24 Hz"
+    },
+    {
+        "final_f": "14.9 Hz",
+        "i_inj": "150 pA",
+        "initial_f": "72.99 Hz",
+        "mean_f": "25 Hz"
+    },
+    {
+        "final_f": "15.87 Hz",
+        "i_inj": "160 pA",
+        "initial_f": "76.34 Hz",
+        "mean_f": "27 Hz"
+    },
+    {
+        "final_f": "16.86 Hz",
+        "i_inj": "170 pA",
+        "initial_f": "80.0 Hz",
+        "mean_f": "28 Hz"
+    },
+    {
+        "final_f": "17.83 Hz",
+        "i_inj": "180 pA",
+        "initial_f": "83.33 Hz",
+        "mean_f": "30 Hz"
+    },
+    {
+        "final_f": "18.8 Hz",
+        "i_inj": "190 pA",
+        "initial_f": "86.96 Hz",
+        "mean_f": "32 Hz"
+    },
+    {
+        "final_f": "19.8 Hz",
+        "i_inj": "200 pA",
+        "initial_f": "90.91 Hz",
+        "mean_f": "33 Hz"
+    },
+    {
+        "final_f": "20.75 Hz",
+        "i_inj": "210 pA",
+        "initial_f": "94.34 Hz",
+        "mean_f": "35 Hz"
+    },
+    {
+        "final_f": "21.79 Hz",
+        "i_inj": "220 pA",
+        "initial_f": "97.09 Hz",
+        "mean_f": "36 Hz"
+    },
+    {
+        "final_f": "22.73 Hz",
+        "i_inj": "230 pA",
+        "initial_f": "101.01 Hz",
+        "mean_f": "38 Hz"
+    },
+    {
+        "final_f": "23.7 Hz",
+        "i_inj": "240 pA",
+        "initial_f": "104.17 Hz",
+        "mean_f": "39 Hz"
+    },
+    {
+        "final_f": "24.69 Hz",
+        "i_inj": "250 pA",
+        "initial_f": "107.53 Hz",
+        "mean_f": "41 Hz"
+    },
+    {
+        "final_f": "25.64 Hz",
+        "i_inj": "260 pA",
+        "initial_f": "111.11 Hz",
+        "mean_f": "43 Hz"
+    },
+    {
+        "final_f": "26.67 Hz",
+        "i_inj": "270 pA",
+        "initial_f": "113.64 Hz",
+        "mean_f": "44 Hz"
+    },
+    {
+        "final_f": "27.62 Hz",
+        "i_inj": "280 pA",
+        "initial_f": "117.65 Hz",
+        "mean_f": "46 Hz"
+    },
+    {
+        "final_f": "28.65 Hz",
+        "i_inj": "290 pA",
+        "initial_f": "120.48 Hz",
+        "mean_f": "47 Hz"
+    },
+    {
+        "final_f": "29.59 Hz",
+        "i_inj": "300 pA",
+        "initial_f": "123.46 Hz",
+        "mean_f": "49 Hz"
+    }
+]
