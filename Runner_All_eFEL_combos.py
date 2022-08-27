@@ -30,7 +30,6 @@ with open(os.path.join(".", "obsData", "Model_WA2", "Ferguson2014_WA2_" + featur
 
 py2env = "/home/shailesh/.virtualenvs/ferg_py2/bin/python2"
 py3env = "/home/shailesh/.virtualenvs/py3env/bin/python"
-py3env = "/home/shailesh/.virtualenvs/myenv/bin/python"
 if simulator == "Brian1":
     pyenv = py2env
 else:

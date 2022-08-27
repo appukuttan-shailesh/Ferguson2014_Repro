@@ -91,5 +91,6 @@
             "value": "9 dimensionless"
         }
     ],
-    "score": "4.40"
+    "score": "4.40",
+    "model_execution_time": "5.56 s"
 }
