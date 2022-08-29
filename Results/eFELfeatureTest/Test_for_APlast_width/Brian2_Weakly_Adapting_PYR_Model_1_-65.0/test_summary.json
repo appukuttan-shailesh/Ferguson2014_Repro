@@ -1,0 +1,49 @@
+{
+    "observation": [
+        {
+            "i_inj": "60.0 pA",
+            "value": "1.25 ms"
+        },
+        {
+            "i_inj": "70.0 pA",
+            "value": "1.31 ms"
+        },
+        {
+            "i_inj": "80.0 pA",
+            "value": "1.42 ms"
+        },
+        {
+            "i_inj": "90.0 pA",
+            "value": "1.32 ms"
+        },
+        {
+            "i_inj": "100.0 pA",
+            "value": "1.44 ms"
+        }
+    ],
+    "prediction": [
+        {
+            "i_inj": "60.0 pA",
+            "value": "1.48 ms"
+        },
+        {
+            "i_inj": "70.0 pA",
+            "value": "1.41 ms"
+        },
+        {
+            "i_inj": "80.0 pA",
+            "value": "1.37 ms"
+        },
+        {
+            "i_inj": "90.0 pA",
+            "value": "1.41 ms"
+        },
+        {
+            "i_inj": "100.0 pA",
+            "value": "1.49 ms"
+        }
+    ],
+    "score": "0.54",
+    "total_applied_penalty": 0,
+    "model_execution_time": "4.24 s"
+}

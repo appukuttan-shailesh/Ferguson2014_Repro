@@ -1,0 +1,6 @@
+\begin{tabular}{llllllllllllll}
+ & Parameter & \multicolumn{4}{r}{Strongly Adapting Model} & \multicolumn{4}{r}{Weakly Adapting Model 1} & \multicolumn{4}{r}{Weakly Adapting Model 2} \\
+ & Parameter & Original & Brian1 & Brian2 & NEURON & Original & Brian1 & Brian2 & NEURON & Original & Brian1 & Brian2 & NEURON \\
+1 & initial_fi & 0.000000 & 1.29 & 6.57 & 8.90 & 0.000000 & 1.64 & 2.20 & 2.80 & 0.000000 & 1.56 & 2.23 & 2.73 \\
+2 & final_fi & 0.000000 & 1.29 & 1.41 & 1.40 & 0.000000 & 1.70 & 1.76 & 2.02 & 0.000000 & 1.56 & 1.68 & 2.03 \\
+\end{tabular}

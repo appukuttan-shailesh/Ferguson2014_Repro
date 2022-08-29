@@ -1,46 +1,26 @@
 [
     {
-        "i_inj": "0 pA",
-        "value": "0.0"
+        "i_inj": "50.0 pA",
+        "value": "1.0"
     },
     {
-        "i_inj": "10 pA",
-        "value": "2.23"
+        "i_inj": "60.0 pA",
+        "value": "2.0"
     },
     {
-        "i_inj": "20 pA",
-        "value": "2.43"
+        "i_inj": "70.0 pA",
+        "value": "4.0"
     },
     {
-        "i_inj": "30 pA",
-        "value": "3.38"
+        "i_inj": "80.0 pA",
+        "value": "5.0"
     },
     {
-        "i_inj": "40 pA",
-        "value": "4.21"
+        "i_inj": "90.0 pA",
+        "value": "7.0"
     },
     {
-        "i_inj": "50 pA",
-        "value": "5.14"
-    },
-    {
-        "i_inj": "60 pA",
-        "value": "6.11"
-    },
-    {
-        "i_inj": "70 pA",
-        "value": "7.06"
-    },
-    {
-        "i_inj": "80 pA",
-        "value": "8.03"
-    },
-    {
-        "i_inj": "90 pA",
-        "value": "9.01"
-    },
-    {
-        "i_inj": "100 pA",
-        "value": "9.98"
+        "i_inj": "100.0 pA",
+        "value": "8.0"
     }
 ]

@@ -1,0 +1,57 @@
+{
+    "observation": [
+        {
+            "i_inj": "50.0 pA",
+            "value": "1.0"
+        },
+        {
+            "i_inj": "60.0 pA",
+            "value": "2.0"
+        },
+        {
+            "i_inj": "70.0 pA",
+            "value": "4.0"
+        },
+        {
+            "i_inj": "80.0 pA",
+            "value": "5.0"
+        },
+        {
+            "i_inj": "90.0 pA",
+            "value": "7.0"
+        },
+        {
+            "i_inj": "100.0 pA",
+            "value": "8.0"
+        }
+    ],
+    "prediction": [
+        {
+            "i_inj": "50.0 pA",
+            "value": "1"
+        },
+        {
+            "i_inj": "60.0 pA",
+            "value": "2"
+        },
+        {
+            "i_inj": "70.0 pA",
+            "value": "4"
+        },
+        {
+            "i_inj": "80.0 pA",
+            "value": "5"
+        },
+        {
+            "i_inj": "90.0 pA",
+            "value": "7"
+        },
+        {
+            "i_inj": "100.0 pA",
+            "value": "8"
+        }
+    ],
+    "score": "0.00",
+    "total_applied_penalty": 0,
+    "model_execution_time": "4.85 s"
+}

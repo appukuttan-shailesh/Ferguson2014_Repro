@@ -1,0 +1,89 @@
+{
+    "observation": [
+        {
+            "i_inj": "10.0 pA",
+            "value": "107.9 ms"
+        },
+        {
+            "i_inj": "20.0 pA",
+            "value": "59.4 ms"
+        },
+        {
+            "i_inj": "30.0 pA",
+            "value": "42.5 ms"
+        },
+        {
+            "i_inj": "40.0 pA",
+            "value": "33.7 ms"
+        },
+        {
+            "i_inj": "50.0 pA",
+            "value": "28.2 ms"
+        },
+        {
+            "i_inj": "60.0 pA",
+            "value": "24.5 ms"
+        },
+        {
+            "i_inj": "70.0 pA",
+            "value": "21.7 ms"
+        },
+        {
+            "i_inj": "80.0 pA",
+            "value": "19.6 ms"
+        },
+        {
+            "i_inj": "90.0 pA",
+            "value": "18.0 ms"
+        },
+        {
+            "i_inj": "100.0 pA",
+            "value": "16.6 ms"
+        }
+    ],
+    "prediction": [
+        {
+            "i_inj": "10.0 pA",
+            "value": "107.8 ms"
+        },
+        {
+            "i_inj": "20.0 pA",
+            "value": "59.3 ms"
+        },
+        {
+            "i_inj": "30.0 pA",
+            "value": "42.4 ms"
+        },
+        {
+            "i_inj": "40.0 pA",
+            "value": "33.6 ms"
+        },
+        {
+            "i_inj": "50.0 pA",
+            "value": "28.1 ms"
+        },
+        {
+            "i_inj": "60.0 pA",
+            "value": "24.4 ms"
+        },
+        {
+            "i_inj": "70.0 pA",
+            "value": "21.7 ms"
+        },
+        {
+            "i_inj": "80.0 pA",
+            "value": "19.6 ms"
+        },
+        {
+            "i_inj": "90.0 pA",
+            "value": "17.9 ms"
+        },
+        {
+            "i_inj": "100.0 pA",
+            "value": "16.5 ms"
+        }
+    ],
+    "score": "2.57",
+    "total_applied_penalty": 0,
+    "model_execution_time": "2.93 s"
+}
