@@ -79,6 +79,6 @@ filename = "table_eFELfeatureTest_{}_vinit_{}.txt".format(field, str(v_init))
 with open(os.path.join(".", "Results", filename),'w') as outfile:
     df.to_string(outfile)
 	
-filename = "latex_table_eFELfeatureTest_{}_vinit_{}.txt".format(field, str(v_init))
+filename = "latex_table_eFELfeatureTest_{}_vinit_{}.tex".format(field, str(v_init))
 with open(os.path.join(".", "Results", filename),'w') as outfile:
 	outfile.write(df.style.to_latex())

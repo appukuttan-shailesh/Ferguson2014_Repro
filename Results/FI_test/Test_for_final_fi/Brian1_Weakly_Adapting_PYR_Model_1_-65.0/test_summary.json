@@ -1,5 +1,5 @@
 {
-    "score": "0.44", 
+    "score": "0.00", 
     "total_applied_penalty": 0, 
     "observation": [
         {
@@ -246,7 +246,7 @@
         }, 
         {
             "i_inj": "140.0 pA", 
-            "value": "11.74 Hz"
+            "value": "11.4 Hz"
         }, 
         {
             "i_inj": "150.0 pA", 

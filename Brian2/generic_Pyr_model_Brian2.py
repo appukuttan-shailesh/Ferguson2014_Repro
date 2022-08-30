@@ -118,13 +118,13 @@ class CA1_Pyr_Brian2_Template(sciunit.Model,
         # run simulation and record membrane potential of neuron
 
         # Brian2 default dt is 0.1 * ms
-        defaultclock.dt = dt * ms 
+        defaultclock.dt = dt * ms
 
         # record membrane potential of neuron
         monitor_v = StateMonitor(self.model, 'v', record=True)
 
         # run simulation
-        duration = tstop * ms
+        duration = tstop * ms + defaultclock.dt # to include final time step
 
         self.net.add(monitor_v)
         self.net.run(duration, namespace=vars(self))
@@ -149,7 +149,7 @@ class CA1_Pyr_Brian2_Template(sciunit.Model,
         monitor_v = StateMonitor(self.model, 'v', record=True)
 
         # run simulation
-        duration = 1 * second
+        duration = 1000 * ms + defaultclock.dt # to include final time step
         self.net.add(monitor_v)
         self.net.run(duration, namespace=vars(self))
         

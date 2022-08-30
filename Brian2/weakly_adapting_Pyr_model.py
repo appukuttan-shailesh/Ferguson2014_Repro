@@ -20,7 +20,7 @@ vt = -57.0 * mV
 c = -65.8 * mV
 vpeak = 22.6 * mV
 Cm = 300 * pF
-a = 0.001 / ms # model3 = 0.00008 / ms
+a = 0.001 / ms # model2 = 0.00008 / ms
 b = 3 * nS
 d = 5 * pA
 khigh = 3.3 * nS/mV
@@ -58,7 +58,7 @@ model.Ishift = I_shift
 monitor_v = StateMonitor(model, 'v', record=True)
 
 # run simulation
-duration = 1 * second
+duration = 1000 * ms + defaultclock.dt # to include final time step
 run(duration)
 
 # generate plot

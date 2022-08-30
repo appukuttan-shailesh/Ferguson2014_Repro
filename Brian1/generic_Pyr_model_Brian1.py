@@ -117,7 +117,7 @@ class CA1_Pyr_Brian1_Template(sciunit.Model,
         monitor_v = StateMonitor(self.model, 'v', record=True)
 
         # run simulation
-        duration = tstop * ms
+        duration = tstop * ms + defaultclock.dt # to include final time step
         net = Network(self.model, monitor_v)
         net.run(duration)
 
@@ -129,16 +129,16 @@ class CA1_Pyr_Brian1_Template(sciunit.Model,
         defaultclock.dt = 0.02 * ms 
 
         # specify stimulus current
-        I_applied = 100
+        I_applied = 140.0
         self.model.Iinj = I_applied * pA
-        self.model.stim_start = 100 * ms
-        self.model.stim_stop = 900 * ms
+        self.model.stim_start = 0 * ms
+        self.model.stim_stop = 1000 * ms
 
         # record membrane potential of neuron
         monitor_v = StateMonitor(self.model, 'v', record=True)
 
         # run simulation
-        duration = 1 * second
+        duration = 1000 * ms + defaultclock.dt # to include final time step
         net = Network(self.model, monitor_v)
         net.run(duration)
 

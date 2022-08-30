@@ -59,7 +59,7 @@ model.Ishift = I_shift
 monitor_v = StateMonitor(model, 'v', record=True)
 
 # run simulation
-duration = 1 * second
+duration = 1000 * ms + defaultclock.dt # to include final time step
 run(duration)
 
 # generate plot
