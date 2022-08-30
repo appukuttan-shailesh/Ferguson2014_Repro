@@ -1,3 +1,3 @@
-Overall score: 1.56
-Total penalty: 100
+Overall score: 0.00
+Total penalty: 0
 ------------------------------------------------------------
