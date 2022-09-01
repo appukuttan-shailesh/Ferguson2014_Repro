@@ -4,6 +4,7 @@ import json
 import pandas as pd
 
 field = sys.argv[1]
+req_score = sys.argv[2] # RMSE or NRMSE 
 
 output_directory = os.path.join(".", "Results", "_".join(sys.argv[0].split("_")[0:2]))
 if not os.path.exists(output_directory):
@@ -65,24 +66,36 @@ for idx, feature in enumerate(features_list):
 		Brian1_test_summary = os.path.join(test_dir, "{}_{}_{}".format("Brian1", model, str(v_init)), "test_summary.json")
 		with open(Brian1_test_summary) as f:
 			data = json.load(f)
-		row_vals.append(data[field])
-	
+		if req_score == "NRMSE":
+			obs_mean = sum([float(x["value"].split(" ")[0]) for x in data["observation"]])/len(data["observation"])
+			row_vals.append(float(data[field])/obs_mean)
+		else:
+			row_vals.append(data[field])
+
 		Brian2_test_summary = os.path.join(test_dir, "{}_{}_{}".format("Brian2", model, str(v_init)), "test_summary.json")
 		with open(Brian2_test_summary) as f:
 			data = json.load(f)
-		row_vals.append(data[field])
+		if req_score == "NRMSE":
+			obs_mean = sum([float(x["value"].split(" ")[0]) for x in data["observation"]])/len(data["observation"])
+			row_vals.append(float(data[field])/obs_mean)
+		else:
+			row_vals.append(data[field])
 	  
 		Neuron_test_summary = os.path.join(test_dir, "{}_{}_{}".format("NEURON", model, str(v_init)), "test_summary.json")
 		with open(Neuron_test_summary) as f:
 			data = json.load(f)
-		row_vals.append(data[field])
+		if req_score == "NRMSE":
+			obs_mean = sum([float(x["value"].split(" ")[0]) for x in data["observation"]])/len(data["observation"])
+			row_vals.append(float(data[field])/obs_mean)
+		else:
+			row_vals.append(data[field])
 
 	df.loc[idx+1, :] = row_vals
 
-filename = "table_eFELfeatureTest_{}_vinit_{}.txt".format(field, str(v_init))
+filename = "table_eFELfeatureTest_{}_vinit_{}_{}.txt".format(field, str(v_init), req_score)
 with open(os.path.join(output_directory, filename),'w') as outfile:
     df.to_string(outfile)
 	
-filename = "latex_table_eFELfeatureTest_{}_vinit_{}.tex".format(field, str(v_init))
+filename = "latex_table_eFELfeatureTest_{}_vinit_{}_{}.tex".format(field, str(v_init), req_score)
 with open(os.path.join(output_directory, filename),'w') as outfile:
 	outfile.write(df.style.to_latex())
