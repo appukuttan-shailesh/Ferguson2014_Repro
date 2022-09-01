@@ -43,7 +43,9 @@ data_Original_618 = read_data(os.path.join(".", "Original", "data", "vary_v_init
 plt.figure(figsize=(8, 10))
 fig = plt.gcf()
 
-plt.subplot(3, 1, 1)
+ax = plt.subplot(3, 1, 1)
+ax.text(-0.1, 1.15, "A", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 plt.plot(data_Original_nostim_550["T"], data_Original_nostim_550["V"], '-r')
 plt.plot(data_Original_nostim_650["T"], data_Original_nostim_650["V"], '--b')
 plt.plot(data_Original_nostim_750["T"], data_Original_nostim_750["V"], '-.g')
@@ -54,7 +56,9 @@ plt.ylabel("Membrane Potential (mV)")
 plt.xlim(0.0, 200.0)
 # plt.ylim(-100, 25)
 
-plt.subplot(3, 1, 2)
+ax = plt.subplot(3, 1, 2)
+ax.text(-0.1, 1.15, "B", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 plt.plot(data_Original_t0_550["T"], data_Original_t0_550["V"], '-r')
 plt.plot(data_Original_t0_650["T"], data_Original_t0_650["V"], '--b')
 plt.plot(data_Original_t0_750["T"], data_Original_t0_750["V"], '-.g')
@@ -66,6 +70,8 @@ plt.xlim(0.0, 200.0)
 # plt.ylim(-100, 25)
 
 ax = plt.subplot(3, 1, 3)
+ax.text(-0.1, 1.15, "C", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 plt.plot(data_Original_550["T"], data_Original_550["V"], '-r')
 plt.plot(data_Original_650["T"], data_Original_650["V"], '--b')
 plt.plot(data_Original_750["T"], data_Original_750["V"], '-.g')

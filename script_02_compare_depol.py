@@ -48,29 +48,35 @@ data_Neuron_WA2 = read_data(os.path.join(".", "Neuron", "data", "data_Neuron_wea
 plt.figure(figsize=(7, 10))
 fig = plt.gcf()
 
-plt.subplot(3, 1, 1)
+ax =plt.subplot(3, 1, 1)
+ax.text(-0.1, 1.15, "A", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 plt.plot(data_Original_SA["T"], data_Original_SA["V"], '-r')
 plt.plot(data_Brian1_SA["T"], data_Brian1_SA["V"], '--b')
 plt.plot(data_Brian2_SA["T"], data_Brian2_SA["V"], '-.g')
 plt.plot(data_Neuron_SA["T"], data_Neuron_SA["V"], ':m')
 plt.title("Strongly adapting model with 188 pA input")
 plt.xlabel("Time (ms)")
-plt.ylabel("Membrane Potential (mV)")
+plt.ylabel("Membrane potential (mV)")
 plt.xlim(0.0, 1200.0)
 plt.ylim(-80, 30)
 
-plt.subplot(3, 1, 2)
+ax = plt.subplot(3, 1, 2)
+ax.text(-0.1, 1.15, "B", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 plt.plot(data_Original_WA1["T"], data_Original_WA1["V"], '-r')
 plt.plot(data_Brian1_WA1["T"], data_Brian1_WA1["V"], '--b')
 plt.plot(data_Brian2_WA1["T"], data_Brian2_WA1["V"], '-.g')
 plt.plot(data_Neuron_WA1["T"], data_Neuron_WA1["V"], ':m')
 plt.title("Weakly adapting model #1 with 154 pA input")
 plt.xlabel("Time (ms)")
-plt.ylabel("Membrane Potential (mV)")
+plt.ylabel("Membrane potential (mV)")
 plt.xlim(0.0, 1200.0)
 plt.ylim(-100, 50)
 
 ax = plt.subplot(3, 1, 3)
+ax.text(-0.1, 1.15, "C", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 plt.plot(data_Original_WA2["T"], data_Original_WA2["V"], '-r')
 plt.plot(data_Brian1_WA2["T"], data_Brian1_WA2["V"], '--b')
 plt.plot(data_Brian2_WA2["T"], data_Brian2_WA2["V"], '-.g')
@@ -79,7 +85,7 @@ plt.title("Weakly adapting model #2 with 154 pA input")
 ax.legend(['Original', 'Brian1', 'Brian2', 'NEURON'], loc='upper center', bbox_to_anchor=(0.5, -0.25),
           fancybox=True, shadow=True, ncol=5)
 plt.xlabel("Time (ms)")
-plt.ylabel("Membrane Potential (mV)")
+plt.ylabel("Membrane potential (mV)")
 plt.xlim(0.0, 1200.0)
 plt.ylim(-100, 50)
 

@@ -5,6 +5,10 @@ import pandas as pd
 
 field = sys.argv[1]
 
+output_directory = os.path.join(".", "Results", "_".join(sys.argv[0].split("_")[0:2]))
+if not os.path.exists(output_directory):
+    os.makedirs(output_directory)
+
 html_string = """
 <table border="1">
   <thead>
@@ -73,9 +77,9 @@ for idx, feature in enumerate(features_list):
 	df.loc[idx+1, :] = row_vals
 
 filename = "table_FI_test_{}_vinit_{}.txt".format(field, str(v_init))
-with open(os.path.join(".", "Results", filename),'w') as outfile:
+with open(os.path.join(output_directory, filename),'w') as outfile:
     df.to_string(outfile)
 	
 filename = "latex_table_FI_test_{}_vinit_{}.tex".format(field, str(v_init))
-with open(os.path.join(".", "Results", filename),'w') as outfile:
+with open(os.path.join(output_directory, filename),'w') as outfile:
 	outfile.write(df.style.to_latex())

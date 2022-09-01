@@ -5,7 +5,6 @@
 import os, sys
 import pandas as pd
 import matplotlib.pyplot as plt
-import efel
 
 output_directory = os.path.join(".", "Results", "_".join(sys.argv[0].split("_")[0:2]))
 if not os.path.exists(output_directory):
@@ -46,17 +45,20 @@ data_Neuron_WA2 = read_data(os.path.join(".", "Neuron", "data", "data_Neuron_wea
 
 
 # plot data and save figure
-plt.figure(figsize=(7, 10))
+plt.figure(figsize=(8, 10))
 fig = plt.gcf()
 
 ax1 = plt.subplot2grid((3,4), (0, 0), colspan=3)
+ax1.text(-0.1, 1.15, "A", transform=ax1.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax1.plot(data_Original_SA["T"], data_Original_SA["V"], '-r')
 ax1.plot(data_Brian1_SA["T"], data_Brian1_SA["V"], '--b')
 ax1.plot(data_Brian2_SA["T"], data_Brian2_SA["V"], '-.g')
 ax1.plot(data_Neuron_SA["T"], data_Neuron_SA["V"], ':m')
-ax1.title.set_text("Strongly adapting model with -50 pA input")
+# ax1.title.set_text("Strongly adapting model with -50 pA input")
+ax1.text(0.7, 1.125, "Strongly adapting model with -50 pA input", transform=ax1.transAxes, fontsize=14, va='top', ha='center')
 ax1.set_xlabel("Time (ms)")
-ax1.set_ylabel("Membrane Potential (mV)")
+ax1.set_ylabel("Membrane potential (mV)")
 ax1.set_xlim(0.0, 2000.0)
 ax1.set_ylim(-100, 25)
 
@@ -71,13 +73,16 @@ ax2.set(yticklabels=[])  # remove the tick labels
 ax2.tick_params(left=False)  # remove the ticks
 
 ax3 = plt.subplot2grid((3,4), (1, 0), colspan=3)
+ax3.text(-0.1, 1.15, "B", transform=ax3.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax3.plot(data_Original_WA1["T"], data_Original_WA1["V"], '-r')
 ax3.plot(data_Brian1_WA1["T"], data_Brian1_WA1["V"], '--b')
 ax3.plot(data_Brian2_WA1["T"], data_Brian2_WA1["V"], '-.g')
 ax3.plot(data_Neuron_WA1["T"], data_Neuron_WA1["V"], ':m')
-ax3.title.set_text("Weakly adapting model #1 with -1000 pA input")
+# ax3.title.set_text("Weakly adapting model #1 with -1000 pA input")
+ax3.text(0.7, 1.125, "Weakly adapting model #1 with -1000 pA input", transform=ax3.transAxes, fontsize=14, va='top', ha='center')
 ax3.set_xlabel("Time (ms)")
-ax3.set_ylabel("Membrane Potential (mV)")
+ax3.set_ylabel("Membrane potential (mV)")
 ax3.set_xlim(0.0, 2000.0)
 ax3.set_ylim(-125, 25)
 
@@ -92,15 +97,16 @@ ax4.set(yticklabels=[])  # remove the tick labels
 ax4.tick_params(left=False)  # remove the ticks
 
 ax5 = plt.subplot2grid((3,4), (2, 0), colspan=3)
+ax5.text(-0.1, 1.15, "C", transform=ax5.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax5.plot(data_Original_WA2["T"], data_Original_WA2["V"], '-r')
 ax5.plot(data_Brian1_WA2["T"], data_Brian1_WA2["V"], '--b')
 ax5.plot(data_Brian2_WA2["T"], data_Brian2_WA2["V"], '-.g')
 ax5.plot(data_Neuron_WA2["T"], data_Neuron_WA2["V"], ':m')
-ax5.title.set_text("Weakly adapting model #2 with -1000 pA input")
-ax5.legend(['Original', 'Brian1', 'Brian2', 'NEURON'], loc='upper center', bbox_to_anchor=(0.5, -0.25),
-          fancybox=True, shadow=True, ncol=5)
+# ax5.title.set_text("Weakly adapting model #2 with -1000 pA input")
+ax5.text(0.7, 1.125, "Weakly adapting model #2 with -1000 pA input", transform=ax5.transAxes, fontsize=14, va='top', ha='center')
 ax5.set_xlabel("Time (ms)")
-ax5.set_ylabel("Membrane Potential (mV)")
+ax5.set_ylabel("Membrane potential (mV)")
 ax5.set_xlim(0.0, 2000.0)
 ax5.set_ylim(-125, 25)
 
@@ -119,8 +125,10 @@ plt.subplots_adjust(left=0.125,
                     bottom=0.1, 
                     right=0.9, 
                     top=0.9, 
-                    wspace=0.2, 
+                    wspace=0.5, 
                     hspace=0.5)
+
+fig.legend(['Original', 'Brian1', 'Brian2', 'NEURON'], loc='lower center', bbox_to_anchor=(0.5, 0), fancybox=True, shadow=True, ncol=4)
 
 fig_name = os.path.join(output_directory, "script_03_hyperpol_plot_6panels.pdf")
 plt.savefig(fig_name, dpi=600, bbox_inches='tight')

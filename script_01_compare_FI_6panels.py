@@ -147,6 +147,8 @@ plt.figure(figsize=(10, 10))
 fig = plt.gcf()
 
 ax = plt.subplot(3, 2, 1)
+ax.text(-0.15, 1.15, "A", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax.grid(True, linestyle = '--')
 plt.plot(list(data_Original_SA.keys()), list([x["initial_f"] for x in data_Original_SA.values()]), '-r', label="Original", linewidth=4.0)
 plt.plot(list(data_Brian1_SA.keys()), list([x["initial_f"] for x in data_Brian1_SA.values()]), '--b', label="Brian1", linewidth=3.0)
@@ -160,6 +162,8 @@ plt.xlim(-50.0, 300.0)
 plt.ylim(0, 120)
 
 ax = plt.subplot(3, 2, 2)
+ax.text(-0.15, 1.15, "B", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax.grid(True, linestyle = '--')
 plt.plot(list(data_Original_SA.keys()), list([x["final_f"] for x in data_Original_SA.values()]), '-r', linewidth=4.0)
 plt.plot(list(data_Brian1_SA.keys()), list([x["final_f"] for x in data_Brian1_SA.values()]), '--b', linewidth=3.0)
@@ -173,7 +177,10 @@ plt.xlim(-50.0, 300.0)
 plt.ylim(0, 120)
 
 ax = plt.subplot(3, 2, 3)
+ax.text(-0.15, 1.15, "C", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax.grid(True, linestyle = '--')
+ax.set_xticks(range(-50,400,50))
 plt.plot(list(data_Original_WA1.keys()), list([x["initial_f"] for x in data_Original_WA1.values()]), '-r', linewidth=4.0)
 plt.plot(list(data_Brian1_WA1.keys()), list([x["initial_f"] for x in data_Brian1_WA1.values()]), '--b', linewidth=3.0)
 plt.plot(list(data_Brian2_WA1.keys()), list([x["initial_f"] for x in data_Brian2_WA1.values()]), '-.g', linewidth=2.0)
@@ -186,7 +193,10 @@ plt.xlim(-50.0, 350.0)
 plt.ylim(0, 50)
 
 ax = plt.subplot(3, 2, 4)
+ax.text(-0.15, 1.15, "D", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax.grid(True, linestyle = '--')
+ax.set_xticks(range(-50,400,50))
 plt.plot(list(data_Original_WA1.keys()), list([x["final_f"] for x in data_Original_WA1.values()]), '-r', linewidth=4.0)
 plt.plot(list(data_Brian1_WA1.keys()), list([x["final_f"] for x in data_Brian1_WA1.values()]), '--b', linewidth=3.0)
 plt.plot(list(data_Brian2_WA1.keys()), list([x["final_f"] for x in data_Brian2_WA1.values()]), '-.g', linewidth=2.0)
@@ -199,7 +209,10 @@ plt.xlim(-50.0, 350.0)
 plt.ylim(0, 50)
 
 ax = plt.subplot(3, 2, 5)
+ax.text(-0.15, 1.15, "E", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax.grid(True, linestyle = '--')
+ax.set_xticks(range(-50,400,50))
 plt.plot(list(data_Original_WA2.keys()), list([x["initial_f"] for x in data_Original_WA2.values()]), '-r', linewidth=4.0)
 plt.plot(list(data_Brian1_WA2.keys()), list([x["initial_f"] for x in data_Brian1_WA2.values()]), '--b', linewidth=3.0)
 plt.plot(list(data_Brian2_WA2.keys()), list([x["initial_f"] for x in data_Brian2_WA2.values()]), '-.g', linewidth=2.0)
@@ -211,7 +224,10 @@ plt.xlim(-50.0, 350.0)
 plt.ylim(0, 50)
 
 ax = plt.subplot(3, 2, 6)
+ax.text(-0.15, 1.15, "F", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax.grid(True, linestyle = '--')
+ax.set_xticks(range(-50,400,50))
 plt.plot(list(data_Original_WA2.keys()), list([x["final_f"] for x in data_Original_WA2.values()]), '-r', linewidth=4.0)
 plt.plot(list(data_Brian1_WA2.keys()), list([x["final_f"] for x in data_Brian1_WA2.values()]), '--b', linewidth=3.0)
 plt.plot(list(data_Brian2_WA2.keys()), list([x["final_f"] for x in data_Brian2_WA2.values()]), '-.g', linewidth=2.0)

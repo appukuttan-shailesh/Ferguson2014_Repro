@@ -147,6 +147,8 @@ plt.figure(figsize=(5, 10))
 fig = plt.gcf()
 
 ax = plt.subplot(3, 1, 1)
+ax.text(-0.15, 1.15, "A", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax.grid(True, linestyle = '--')
 plt.plot(list(data_Original_SA.keys()), list([x["initial_f"] for x in data_Original_SA.values()]), '-r')
 plt.plot(list(data_Original_SA.keys()), list([x["final_f"] for x in data_Original_SA.values()]), '--r')
@@ -164,6 +166,8 @@ plt.xlim(-50.0, 300.0)
 plt.ylim(0, 120)
 
 ax = plt.subplot(3, 1, 2)
+ax.text(-0.15, 1.15, "B", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax.grid(True, linestyle = '--')
 plt.plot(list(data_Original_WA1.keys()), list([x["initial_f"] for x in data_Original_WA1.values()]), '-r')
 plt.plot(list(data_Original_WA1.keys()), list([x["final_f"] for x in data_Original_WA1.values()]), '--r')
@@ -181,6 +185,8 @@ plt.xlim(-50.0, 350.0)
 plt.ylim(0, 50)
 
 ax = plt.subplot(3, 1, 3)
+ax.text(-0.15, 1.15, "C", transform=ax.transAxes,
+      fontsize=16, fontweight='bold', va='top', ha='right')
 ax.grid(True, linestyle = '--')
 plt.plot(list(data_Original_WA2.keys()), list([x["initial_f"] for x in data_Original_WA2.values()]), '-r')
 plt.plot(list(data_Original_WA2.keys()), list([x["final_f"] for x in data_Original_WA2.values()]), '--r')
