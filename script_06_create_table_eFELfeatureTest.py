@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 field = sys.argv[1]
-req_score = sys.argv[2] # RMSE or NRMSE 
+req_score = sys.argv[2] # RMSE or NRMSE (useful only for field = score)
 
 output_directory = os.path.join(".", "Results", "_".join(sys.argv[0].split("_")[0:2]))
 if not os.path.exists(output_directory):
@@ -47,7 +47,9 @@ features_list = [
 				'time_to_last_spike', 
 				'AP1_amp', 
 				'AP2_amp', 
-				'APlast_amp', 
+				'APlast_amp',  
+        'AP1_peak',
+        'AP2_peak',
 				'AP1_width', 
 				'AP2_width', 
 				'APlast_width', 

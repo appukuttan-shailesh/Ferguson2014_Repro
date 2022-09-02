@@ -15,6 +15,8 @@ if sys.argv[2] == "all":
                     'AP1_amp', 
                     'AP2_amp', 
                     'APlast_amp', 
+                    'AP1_peak',
+                    'AP2_peak',
                     'AP1_width', 
                     'AP2_width', 
                     'APlast_width', 
@@ -26,7 +28,8 @@ else:
 v_init = -65.0 # mV
 
 py2env = "/home/shailesh/.virtualenvs/ferg_py2/bin/python2"
-py3env = "/home/shailesh/.virtualenvs/py3env/bin/python"
+# py3env = "/home/shailesh/.virtualenvs/py3env/bin/python"
+py3env = "/home/shailesh/.virtualenvs/myenv/bin/python"
 if simulator == "Brian1":
     pyenv = py2env
 else:
@@ -43,7 +46,7 @@ test.judge(model, deep_error=True)
     return commands
 
 sim_params_default = {"stim_delay": 0, "stim_duration": 1000, "tstop": 1000}
-sim_params_iv_curve = {"stim_delay": 1000, "stim_duration": 1500, "tstop": 3000}
+sim_params_iv_curve = {"stim_delay": 1500, "stim_duration": 2500, "tstop": 5000}
 
 for feature in features_list:
     if feature == "iv_curve":

@@ -2,88 +2,88 @@
     "observation": [
         {
             "i_inj": "-10.0 pA",
-            "value": "-2.48 mV"
+            "value": "-2.68 mV"
         },
         {
             "i_inj": "-20.0 pA",
-            "value": "-4.9 mV"
+            "value": "-5.03 mV"
         },
         {
             "i_inj": "-30.0 pA",
-            "value": "-7.15 mV"
+            "value": "-7.17 mV"
         },
         {
             "i_inj": "-40.0 pA",
-            "value": "-9.23 mV"
+            "value": "-9.14 mV"
         },
         {
             "i_inj": "-50.0 pA",
-            "value": "-11.16 mV"
+            "value": "-10.98 mV"
         },
         {
             "i_inj": "-60.0 pA",
-            "value": "-12.98 mV"
+            "value": "-12.71 mV"
         },
         {
             "i_inj": "-70.0 pA",
-            "value": "-14.69 mV"
+            "value": "-14.34 mV"
         },
         {
             "i_inj": "-80.0 pA",
-            "value": "-16.31 mV"
+            "value": "-15.9 mV"
         },
         {
             "i_inj": "-90.0 pA",
-            "value": "-17.86 mV"
+            "value": "-17.39 mV"
         },
         {
             "i_inj": "-100.0 pA",
-            "value": "-19.34 mV"
+            "value": "-18.82 mV"
         }
     ],
     "prediction": [
         {
             "i_inj": "-10.0 pA",
-            "value": "-2.48 mV"
+            "value": "-2.68 mV"
         },
         {
             "i_inj": "-20.0 pA",
-            "value": "-4.9 mV"
+            "value": "-5.03 mV"
         },
         {
             "i_inj": "-30.0 pA",
-            "value": "-7.15 mV"
+            "value": "-7.17 mV"
         },
         {
             "i_inj": "-40.0 pA",
-            "value": "-9.23 mV"
+            "value": "-9.14 mV"
         },
         {
             "i_inj": "-50.0 pA",
-            "value": "-11.17 mV"
+            "value": "-10.98 mV"
         },
         {
             "i_inj": "-60.0 pA",
-            "value": "-12.98 mV"
+            "value": "-12.71 mV"
         },
         {
             "i_inj": "-70.0 pA",
-            "value": "-14.69 mV"
+            "value": "-14.34 mV"
         },
         {
             "i_inj": "-80.0 pA",
-            "value": "-16.32 mV"
+            "value": "-15.9 mV"
         },
         {
             "i_inj": "-90.0 pA",
-            "value": "-17.86 mV"
+            "value": "-17.39 mV"
         },
         {
             "i_inj": "-100.0 pA",
-            "value": "-19.34 mV"
+            "value": "-18.82 mV"
         }
     ],
-    "score": "0.23",
+    "score": "0.00",
     "total_applied_penalty": 0,
-    "model_execution_time": "12.72 s"
+    "model_execution_time": "30.21 s"
 }

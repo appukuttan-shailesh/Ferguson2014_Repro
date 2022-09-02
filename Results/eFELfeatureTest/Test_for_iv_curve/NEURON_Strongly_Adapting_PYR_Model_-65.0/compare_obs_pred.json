@@ -1,52 +1,52 @@
 [
     {
         "i_inj": "-10.0 pA",
-        "obs": "-2.48 mV",
-        "pred": "-2.48 mV"
+        "obs": "-2.68 mV",
+        "pred": "-2.68 mV"
     },
     {
         "i_inj": "-20.0 pA",
-        "obs": "-4.9 mV",
-        "pred": "-4.9 mV"
+        "obs": "-5.03 mV",
+        "pred": "-5.03 mV"
     },
     {
         "i_inj": "-30.0 pA",
-        "obs": "-7.15 mV",
-        "pred": "-7.15 mV"
+        "obs": "-7.17 mV",
+        "pred": "-7.17 mV"
     },
     {
         "i_inj": "-40.0 pA",
-        "obs": "-9.23 mV",
-        "pred": "-9.23 mV"
+        "obs": "-9.14 mV",
+        "pred": "-9.14 mV"
     },
     {
         "i_inj": "-50.0 pA",
-        "obs": "-11.16 mV",
-        "pred": "-11.17 mV"
+        "obs": "-10.98 mV",
+        "pred": "-10.98 mV"
     },
     {
         "i_inj": "-60.0 pA",
-        "obs": "-12.98 mV",
-        "pred": "-12.98 mV"
+        "obs": "-12.71 mV",
+        "pred": "-12.71 mV"
     },
     {
         "i_inj": "-70.0 pA",
-        "obs": "-14.69 mV",
-        "pred": "-14.69 mV"
+        "obs": "-14.34 mV",
+        "pred": "-14.34 mV"
     },
     {
         "i_inj": "-80.0 pA",
-        "obs": "-16.31 mV",
-        "pred": "-16.32 mV"
+        "obs": "-15.9 mV",
+        "pred": "-15.9 mV"
     },
     {
         "i_inj": "-90.0 pA",
-        "obs": "-17.86 mV",
-        "pred": "-17.86 mV"
+        "obs": "-17.39 mV",
+        "pred": "-17.39 mV"
     },
     {
         "i_inj": "-100.0 pA",
-        "obs": "-19.34 mV",
-        "pred": "-19.34 mV"
+        "obs": "-18.82 mV",
+        "pred": "-18.82 mV"
     }
 ]
