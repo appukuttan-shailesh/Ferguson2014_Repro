@@ -65,14 +65,14 @@
         "obs": "6.18 Hz"
     }, 
     {
-        "pred": "8.66 Hz", 
+        "pred": "8.65 Hz", 
         "i_inj": "80.0 pA", 
-        "obs": "8.66 Hz"
+        "obs": "8.65 Hz"
     }, 
     {
-        "pred": "10.91 Hz", 
+        "pred": "10.9 Hz", 
         "i_inj": "90.0 pA", 
-        "obs": "10.91 Hz"
+        "obs": "10.9 Hz"
     }, 
     {
         "pred": "13.0 Hz", 
@@ -85,14 +85,14 @@
         "obs": "14.97 Hz"
     }, 
     {
-        "pred": "16.86 Hz", 
+        "pred": "16.85 Hz", 
         "i_inj": "120.0 pA", 
-        "obs": "16.86 Hz"
+        "obs": "16.85 Hz"
     }, 
     {
-        "pred": "18.66 Hz", 
+        "pred": "18.64 Hz", 
         "i_inj": "130.0 pA", 
-        "obs": "18.66 Hz"
+        "obs": "18.64 Hz"
     }, 
     {
         "pred": "20.37 Hz", 
@@ -110,24 +110,24 @@
         "obs": "23.64 Hz"
     }, 
     {
-        "pred": "25.19 Hz", 
+        "pred": "25.2 Hz", 
         "i_inj": "170.0 pA", 
-        "obs": "25.19 Hz"
+        "obs": "25.2 Hz"
     }, 
     {
-        "pred": "26.74 Hz", 
+        "pred": "26.72 Hz", 
         "i_inj": "180.0 pA", 
-        "obs": "26.74 Hz"
+        "obs": "26.72 Hz"
     }, 
     {
-        "pred": "28.25 Hz", 
+        "pred": "28.2 Hz", 
         "i_inj": "190.0 pA", 
-        "obs": "28.25 Hz"
+        "obs": "28.2 Hz"
     }, 
     {
-        "pred": "29.59 Hz", 
+        "pred": "29.66 Hz", 
         "i_inj": "200.0 pA", 
-        "obs": "29.59 Hz"
+        "obs": "29.66 Hz"
     }, 
     {
         "pred": "31.06 Hz", 
@@ -135,73 +135,73 @@
         "obs": "31.06 Hz"
     }, 
     {
-        "pred": "32.36 Hz", 
+        "pred": "32.45 Hz", 
         "i_inj": "220.0 pA", 
-        "obs": "32.36 Hz"
+        "obs": "32.45 Hz"
     }, 
     {
-        "pred": "33.78 Hz", 
+        "pred": "33.81 Hz", 
         "i_inj": "230.0 pA", 
-        "obs": "33.78 Hz"
+        "obs": "33.81 Hz"
     }, 
     {
-        "pred": "35.09 Hz", 
+        "pred": "35.14 Hz", 
         "i_inj": "240.0 pA", 
-        "obs": "35.09 Hz"
+        "obs": "35.14 Hz"
     }, 
     {
-        "pred": "36.5 Hz", 
+        "pred": "36.44 Hz", 
         "i_inj": "250.0 pA", 
-        "obs": "36.5 Hz"
+        "obs": "36.44 Hz"
     }, 
     {
-        "pred": "37.74 Hz", 
+        "pred": "37.71 Hz", 
         "i_inj": "260.0 pA", 
-        "obs": "37.74 Hz"
+        "obs": "37.71 Hz"
     }, 
     {
-        "pred": "39.06 Hz", 
+        "pred": "38.97 Hz", 
         "i_inj": "270.0 pA", 
-        "obs": "39.06 Hz"
+        "obs": "38.97 Hz"
     }, 
     {
-        "pred": "40.32 Hz", 
+        "pred": "40.23 Hz", 
         "i_inj": "280.0 pA", 
-        "obs": "40.32 Hz"
+        "obs": "40.23 Hz"
     }, 
     {
-        "pred": "41.49 Hz", 
+        "pred": "41.43 Hz", 
         "i_inj": "290.0 pA", 
-        "obs": "41.49 Hz"
+        "obs": "41.43 Hz"
     }, 
     {
-        "pred": "42.74 Hz", 
+        "pred": "42.63 Hz", 
         "i_inj": "300.0 pA", 
-        "obs": "42.74 Hz"
+        "obs": "42.63 Hz"
     }, 
     {
-        "pred": "43.86 Hz", 
+        "pred": "43.82 Hz", 
         "i_inj": "310.0 pA", 
-        "obs": "43.86 Hz"
+        "obs": "43.82 Hz"
     }, 
     {
-        "pred": "44.84 Hz", 
+        "pred": "45.0 Hz", 
         "i_inj": "320.0 pA", 
-        "obs": "44.84 Hz"
+        "obs": "45.0 Hz"
     }, 
     {
-        "pred": "46.08 Hz", 
+        "pred": "46.17 Hz", 
         "i_inj": "330.0 pA", 
-        "obs": "46.08 Hz"
+        "obs": "46.17 Hz"
     }, 
     {
-        "pred": "47.17 Hz", 
+        "pred": "47.3 Hz", 
         "i_inj": "340.0 pA", 
-        "obs": "47.17 Hz"
+        "obs": "47.3 Hz"
     }, 
     {
-        "pred": "48.54 Hz", 
+        "pred": "48.4 Hz", 
         "i_inj": "350.0 pA", 
-        "obs": "48.54 Hz"
+        "obs": "48.4 Hz"
     }
 ]

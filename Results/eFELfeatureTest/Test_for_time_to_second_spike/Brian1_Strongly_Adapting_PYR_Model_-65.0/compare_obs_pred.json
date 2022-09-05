@@ -5,29 +5,29 @@
         "obs": "555.9 ms"
     }, 
     {
-        "pred": "173.9 ms", 
+        "pred": "173.98 ms", 
         "i_inj": "20.0 pA", 
-        "obs": "173.9 ms"
+        "obs": "173.98 ms"
     }, 
     {
-        "pred": "106.5 ms", 
+        "pred": "106.58 ms", 
         "i_inj": "30.0 pA", 
-        "obs": "106.5 ms"
+        "obs": "106.58 ms"
     }, 
     {
-        "pred": "79.3 ms", 
+        "pred": "79.38 ms", 
         "i_inj": "40.0 pA", 
-        "obs": "79.3 ms"
+        "obs": "79.38 ms"
     }, 
     {
-        "pred": "64.3 ms", 
+        "pred": "64.34 ms", 
         "i_inj": "50.0 pA", 
-        "obs": "64.3 ms"
+        "obs": "64.34 ms"
     }, 
     {
-        "pred": "54.6 ms", 
+        "pred": "54.68 ms", 
         "i_inj": "60.0 pA", 
-        "obs": "54.6 ms"
+        "obs": "54.68 ms"
     }, 
     {
         "pred": "47.9 ms", 
@@ -35,18 +35,18 @@
         "obs": "47.9 ms"
     }, 
     {
-        "pred": "42.8 ms", 
+        "pred": "42.84 ms", 
         "i_inj": "80.0 pA", 
-        "obs": "42.8 ms"
+        "obs": "42.84 ms"
     }, 
     {
-        "pred": "38.9 ms", 
+        "pred": "38.92 ms", 
         "i_inj": "90.0 pA", 
-        "obs": "38.9 ms"
+        "obs": "38.92 ms"
     }, 
     {
-        "pred": "35.7 ms", 
+        "pred": "35.76 ms", 
         "i_inj": "100.0 pA", 
-        "obs": "35.7 ms"
+        "obs": "35.76 ms"
     }
 ]

@@ -2,33 +2,33 @@
     "observation": [
         {
             "i_inj": "60.0 pA",
-            "value": "199.6 ms"
+            "value": "199.64 ms"
         },
         {
             "i_inj": "70.0 pA",
-            "value": "127.9 ms"
+            "value": "127.96 ms"
         },
         {
             "i_inj": "80.0 pA",
-            "value": "97.0 ms"
+            "value": "97.08 ms"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "79.4 ms"
+            "value": "79.46 ms"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "67.9 ms"
+            "value": "67.94 ms"
         }
     ],
     "prediction": [
         {
             "i_inj": "60.0 pA",
-            "value": "199.5 ms"
+            "value": "199.54 ms"
         },
         {
             "i_inj": "70.0 pA",
-            "value": "127.8 ms"
+            "value": "127.86 ms"
         },
         {
             "i_inj": "80.0 pA",
@@ -36,14 +36,14 @@
         },
         {
             "i_inj": "90.0 pA",
-            "value": "79.3 ms"
+            "value": "79.36 ms"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "67.8 ms"
+            "value": "67.82 ms"
         }
     ],
-    "score": "0.09",
+    "score": "0.10",
     "total_applied_penalty": 0,
-    "model_execution_time": "1.74 s"
+    "model_execution_time": "1.61 s"
 }

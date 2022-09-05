@@ -1,5 +1,5 @@
 {
-    "model_execution_time": "54.00 s", 
+    "model_execution_time": "50.16 s", 
     "score": "0.00", 
     "total_applied_penalty": 0, 
     "observation": [
@@ -9,15 +9,15 @@
         }, 
         {
             "i_inj": "20.0 pA", 
-            "value": "872.3 ms"
+            "value": "872.36 ms"
         }, 
         {
             "i_inj": "30.0 pA", 
-            "value": "721.8 ms"
+            "value": "721.88 ms"
         }, 
         {
             "i_inj": "40.0 pA", 
-            "value": "870.1 ms"
+            "value": "870.14 ms"
         }, 
         {
             "i_inj": "50.0 pA", 
@@ -33,7 +33,7 @@
         }, 
         {
             "i_inj": "80.0 pA", 
-            "value": "979.9 ms"
+            "value": "979.98 ms"
         }, 
         {
             "i_inj": "90.0 pA", 
@@ -41,7 +41,7 @@
         }, 
         {
             "i_inj": "100.0 pA", 
-            "value": "953.5 ms"
+            "value": "953.56 ms"
         }
     ], 
     "prediction": [
@@ -51,15 +51,15 @@
         }, 
         {
             "i_inj": "20.0 pA", 
-            "value": "872.3 ms"
+            "value": "872.36 ms"
         }, 
         {
             "i_inj": "30.0 pA", 
-            "value": "721.8 ms"
+            "value": "721.88 ms"
         }, 
         {
             "i_inj": "40.0 pA", 
-            "value": "870.1 ms"
+            "value": "870.14 ms"
         }, 
         {
             "i_inj": "50.0 pA", 
@@ -75,7 +75,7 @@
         }, 
         {
             "i_inj": "80.0 pA", 
-            "value": "979.9 ms"
+            "value": "979.98 ms"
         }, 
         {
             "i_inj": "90.0 pA", 
@@ -83,7 +83,7 @@
         }, 
         {
             "i_inj": "100.0 pA", 
-            "value": "953.5 ms"
+            "value": "953.56 ms"
         }
     ]
 }

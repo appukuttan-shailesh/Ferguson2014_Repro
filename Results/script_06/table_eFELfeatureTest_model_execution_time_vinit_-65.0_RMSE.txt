@@ -1,0 +1,15 @@
+               Parameter Strongly Adapting Model                   Weakly Adapting Model 1                   Weakly Adapting Model 2                  
+               Parameter                  Brian1   Brian2   NEURON                  Brian1   Brian2   NEURON                  Brian1   Brian2   NEURON
+1             spikecount                 48.19 s   9.29 s   3.24 s                 24.41 s   4.99 s   1.61 s                 29.64 s   5.81 s   2.02 s
+2    time_to_first_spike                 49.73 s   8.81 s   3.21 s                 24.58 s   4.50 s   1.61 s                 30.14 s   5.56 s   2.03 s
+3   time_to_second_spike                 52.01 s   9.43 s   3.30 s                 25.59 s   4.71 s   1.61 s                 26.35 s   4.87 s   1.63 s
+4     time_to_last_spike                 50.16 s   9.01 s   3.21 s                 26.87 s   5.06 s   1.63 s                 31.34 s   6.13 s   2.10 s
+5                AP1_amp                 54.72 s   9.43 s   3.36 s                 26.59 s   4.85 s   1.62 s                 31.97 s   5.48 s   2.13 s
+6                AP2_amp                 55.58 s   8.80 s   3.21 s                 26.98 s   4.66 s   1.59 s                 27.45 s   4.59 s   1.63 s
+7             APlast_amp                 54.98 s   8.89 s   3.25 s                 27.48 s   4.44 s   1.59 s                 33.15 s   5.41 s   2.04 s
+8               AP1_peak                 58.32 s   9.10 s   3.28 s                 31.25 s   4.47 s   1.60 s                 32.64 s   5.34 s   2.14 s
+9               AP2_peak                 58.53 s   8.90 s   3.28 s                 29.04 s   4.48 s   1.62 s                 29.34 s   4.56 s   1.64 s
+10             AP1_width                 56.31 s   8.82 s   3.26 s                 27.80 s   4.80 s   1.59 s                 33.90 s   5.53 s   2.09 s
+11             AP2_width                 54.55 s   8.97 s   3.21 s                 26.78 s   4.60 s   1.63 s                 27.93 s   4.52 s   1.63 s
+12          APlast_width                 55.69 s   9.17 s   3.23 s                 27.69 s   4.60 s   1.61 s                 33.12 s   5.33 s   2.03 s
+13              iv_curve                259.69 s  44.19 s  27.25 s                255.75 s  48.33 s  28.79 s                276.18 s  52.66 s  28.92 s

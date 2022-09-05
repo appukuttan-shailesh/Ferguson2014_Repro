@@ -1,23 +1,23 @@
 [
     {
-        "pred": "0.5 ms", 
+        "pred": "0.55 ms", 
         "i_inj": "10.0 pA", 
-        "obs": "0.5 ms"
+        "obs": "0.55 ms"
     }, 
     {
-        "pred": "0.45 ms", 
+        "pred": "0.49 ms", 
         "i_inj": "20.0 pA", 
-        "obs": "0.45 ms"
+        "obs": "0.49 ms"
     }, 
     {
-        "pred": "0.61 ms", 
+        "pred": "0.52 ms", 
         "i_inj": "30.0 pA", 
-        "obs": "0.61 ms"
+        "obs": "0.52 ms"
     }, 
     {
-        "pred": "0.47 ms", 
+        "pred": "0.53 ms", 
         "i_inj": "40.0 pA", 
-        "obs": "0.47 ms"
+        "obs": "0.53 ms"
     }, 
     {
         "pred": "0.51 ms", 
@@ -35,18 +35,18 @@
         "obs": "0.53 ms"
     }, 
     {
-        "pred": "0.62 ms", 
+        "pred": "0.53 ms", 
         "i_inj": "80.0 pA", 
-        "obs": "0.62 ms"
+        "obs": "0.53 ms"
     }, 
     {
-        "pred": "0.52 ms", 
+        "pred": "0.53 ms", 
         "i_inj": "90.0 pA", 
-        "obs": "0.52 ms"
+        "obs": "0.53 ms"
     }, 
     {
-        "pred": "0.65 ms", 
+        "pred": "0.53 ms", 
         "i_inj": "100.0 pA", 
-        "obs": "0.65 ms"
+        "obs": "0.53 ms"
     }
 ]

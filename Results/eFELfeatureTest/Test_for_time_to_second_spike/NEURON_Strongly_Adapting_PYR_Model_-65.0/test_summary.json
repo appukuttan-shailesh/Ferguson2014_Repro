@@ -6,23 +6,23 @@
         },
         {
             "i_inj": "20.0 pA",
-            "value": "173.9 ms"
+            "value": "173.98 ms"
         },
         {
             "i_inj": "30.0 pA",
-            "value": "106.5 ms"
+            "value": "106.58 ms"
         },
         {
             "i_inj": "40.0 pA",
-            "value": "79.3 ms"
+            "value": "79.38 ms"
         },
         {
             "i_inj": "50.0 pA",
-            "value": "64.3 ms"
+            "value": "64.34 ms"
         },
         {
             "i_inj": "60.0 pA",
-            "value": "54.6 ms"
+            "value": "54.68 ms"
         },
         {
             "i_inj": "70.0 pA",
@@ -30,25 +30,25 @@
         },
         {
             "i_inj": "80.0 pA",
-            "value": "42.8 ms"
+            "value": "42.84 ms"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "38.9 ms"
+            "value": "38.92 ms"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "35.7 ms"
+            "value": "35.76 ms"
         }
     ],
     "prediction": [
         {
             "i_inj": "10.0 pA",
-            "value": "555.4 ms"
+            "value": "555.44 ms"
         },
         {
             "i_inj": "20.0 pA",
-            "value": "173.6 ms"
+            "value": "173.66 ms"
         },
         {
             "i_inj": "30.0 pA",
@@ -56,7 +56,7 @@
         },
         {
             "i_inj": "40.0 pA",
-            "value": "79.1 ms"
+            "value": "79.12 ms"
         },
         {
             "i_inj": "50.0 pA",
@@ -64,7 +64,7 @@
         },
         {
             "i_inj": "60.0 pA",
-            "value": "54.4 ms"
+            "value": "54.46 ms"
         },
         {
             "i_inj": "70.0 pA",
@@ -72,7 +72,7 @@
         },
         {
             "i_inj": "80.0 pA",
-            "value": "42.6 ms"
+            "value": "42.62 ms"
         },
         {
             "i_inj": "90.0 pA",
@@ -80,10 +80,10 @@
         },
         {
             "i_inj": "100.0 pA",
-            "value": "35.5 ms"
+            "value": "35.54 ms"
         }
     ],
-    "score": "0.26",
+    "score": "0.27",
     "total_applied_penalty": 0,
-    "model_execution_time": "3.51 s"
+    "model_execution_time": "3.30 s"
 }

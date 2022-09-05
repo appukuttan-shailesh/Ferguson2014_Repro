@@ -155,8 +155,8 @@ plt.ylabel("Membrane potential (mV)")
 plt.ylim(-70, 30)
 
 fig.tight_layout()
-fig_name = os.path.join(output_directory, "script_08_compare_spike_shape.pdf")
-fig.legend(['Brian1', 'Brian2', 'NEURON'], loc='upper center', bbox_to_anchor=(0.5, -0.25),
+fig_name = os.path.join(output_directory, "script_08_compare_spike_shape_{}.pdf".format(potential))
+fig.legend(['Brian1', 'Brian2', 'NEURON'], loc='upper center', bbox_to_anchor=(0.5, -0.005),
           fancybox=True, shadow=True, ncol=5)
 plt.savefig(fig_name, dpi=600, bbox_inches='tight')
 plt.show()

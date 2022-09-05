@@ -28,8 +28,8 @@ else:
 v_init = -65.0 # mV
 
 py2env = "/home/shailesh/.virtualenvs/ferg_py2/bin/python2"
-# py3env = "/home/shailesh/.virtualenvs/py3env/bin/python"
-py3env = "/home/shailesh/.virtualenvs/myenv/bin/python"
+py3env = "/home/shailesh/.virtualenvs/py3env/bin/python"
+# py3env = "/home/shailesh/.virtualenvs/myenv/bin/python"
 if simulator == "Brian1":
     pyenv = py2env
 else:
@@ -45,8 +45,8 @@ test.judge(model, deep_error=True)
     """.format(data=data, feature=feature, sim_params=sim_params, simulator=simulator, model_type=model_type, v_init=v_init)
     return commands
 
-sim_params_default = {"stim_delay": 0, "stim_duration": 1000, "tstop": 1000}
-sim_params_iv_curve = {"stim_delay": 1500, "stim_duration": 2500, "tstop": 5000}
+sim_params_default = {"stim_delay": 0, "stim_duration": 1000, "tstop": 1000, "dt": 0.02}
+sim_params_iv_curve = {"stim_delay": 1500, "stim_duration": 2500, "tstop": 5000, "dt": 0.02}
 
 for feature in features_list:
     if feature == "iv_curve":

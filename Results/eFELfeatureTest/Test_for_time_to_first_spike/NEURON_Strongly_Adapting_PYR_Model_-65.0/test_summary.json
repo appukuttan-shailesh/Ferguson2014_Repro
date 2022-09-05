@@ -2,11 +2,11 @@
     "observation": [
         {
             "i_inj": "10.0 pA",
-            "value": "107.9 ms"
+            "value": "107.94 ms"
         },
         {
             "i_inj": "20.0 pA",
-            "value": "59.4 ms"
+            "value": "59.46 ms"
         },
         {
             "i_inj": "30.0 pA",
@@ -18,7 +18,7 @@
         },
         {
             "i_inj": "50.0 pA",
-            "value": "28.2 ms"
+            "value": "28.24 ms"
         },
         {
             "i_inj": "60.0 pA",
@@ -26,29 +26,29 @@
         },
         {
             "i_inj": "70.0 pA",
-            "value": "21.7 ms"
+            "value": "21.78 ms"
         },
         {
             "i_inj": "80.0 pA",
-            "value": "19.6 ms"
+            "value": "19.68 ms"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "18.0 ms"
+            "value": "18.02 ms"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "16.6 ms"
+            "value": "16.66 ms"
         }
     ],
     "prediction": [
         {
             "i_inj": "10.0 pA",
-            "value": "107.8 ms"
+            "value": "107.82 ms"
         },
         {
             "i_inj": "20.0 pA",
-            "value": "59.3 ms"
+            "value": "59.34 ms"
         },
         {
             "i_inj": "30.0 pA",
@@ -60,11 +60,11 @@
         },
         {
             "i_inj": "50.0 pA",
-            "value": "28.1 ms"
+            "value": "28.14 ms"
         },
         {
             "i_inj": "60.0 pA",
-            "value": "24.4 ms"
+            "value": "24.42 ms"
         },
         {
             "i_inj": "70.0 pA",
@@ -76,14 +76,14 @@
         },
         {
             "i_inj": "90.0 pA",
-            "value": "17.9 ms"
+            "value": "17.92 ms"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "16.5 ms"
+            "value": "16.56 ms"
         }
     ],
-    "score": "0.09",
+    "score": "0.10",
     "total_applied_penalty": 0,
-    "model_execution_time": "3.66 s"
+    "model_execution_time": "3.21 s"
 }

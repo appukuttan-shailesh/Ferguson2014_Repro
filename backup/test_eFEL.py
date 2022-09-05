@@ -19,9 +19,10 @@ def extract_eFEL_feature(filepath, feature):
     '''
     xlsx_data = pd.read_excel(filepath)
     efel.reset()
-    efel.setDoubleSetting('Threshold', 10) # default: -20.0
-    efel.setDoubleSetting('DerivativeThreshold', -30.0) #default: 10.0
-    efel.setDoubleSetting('DownDerivativeThreshold', -30.0) #default: -12.0
+    efel.setDoubleSetting('interp_step', 0.01)
+    # efel.setDoubleSetting('Threshold', 10) # default: -20.0
+    # efel.setDoubleSetting('DerivativeThreshold', -30.0) #default: 10.0
+    # efel.setDoubleSetting('DownDerivativeThreshold', -30.0) #default: -12.0
     # efel.setIntSetting('DerivativeWindow', 100) #default: 3
     data_eFEL = {
         "T": xlsx_data["t"],
@@ -29,12 +30,12 @@ def extract_eFEL_feature(filepath, feature):
         "stim_start": [xlsx_data["t"].values[0]],
         "stim_end": [xlsx_data["t"].values[-1]],
     }
-    feature_vals = efel.getFeatureValues([data_eFEL], [feature, "time", "peak_indices"])
+    feature_vals = efel.getFeatureValues([data_eFEL], [feature, "time", "peak_indices", "peak_voltage"])
     print(feature_vals)
     print(len(feature_vals[0]["peak_indices"]))
     return data_eFEL, feature_vals
 
-base_directory = os.path.join(".", simulator, "data")
+base_directory = os.path.join("..", simulator, "data")
 data_eFEL, feature_vals = extract_eFEL_feature(os.path.join(base_directory, "data_{}_{}_depol_{}.xlsx".format(simulator, model, potential)), feature)
 peak_indices = feature_vals[0]["peak_indices"]
 times = feature_vals[0]["time"]

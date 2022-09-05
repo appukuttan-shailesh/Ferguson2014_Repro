@@ -2,56 +2,56 @@
     "observation": [
         {
             "i_inj": "50.0 pA",
-            "value": "675.9 ms"
+            "value": "675.92 ms"
         },
         {
             "i_inj": "60.0 pA",
-            "value": "198.7 ms"
+            "value": "198.74 ms"
         },
         {
             "i_inj": "70.0 pA",
-            "value": "127.8 ms"
+            "value": "127.82 ms"
         },
         {
             "i_inj": "80.0 pA",
-            "value": "97.0 ms"
+            "value": "97.02 ms"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "79.4 ms"
+            "value": "79.42 ms"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "67.9 ms"
+            "value": "67.92 ms"
         }
     ],
     "prediction": [
         {
             "i_inj": "50.0 pA",
-            "value": "675.8 ms"
+            "value": "675.84 ms"
         },
         {
             "i_inj": "60.0 pA",
-            "value": "198.6 ms"
+            "value": "198.66 ms"
         },
         {
             "i_inj": "70.0 pA",
-            "value": "127.7 ms"
+            "value": "127.72 ms"
         },
         {
             "i_inj": "80.0 pA",
-            "value": "96.9 ms"
+            "value": "96.92 ms"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "79.3 ms"
+            "value": "79.32 ms"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "67.8 ms"
+            "value": "67.82 ms"
         }
     ],
-    "score": "0.10",
+    "score": "0.09",
     "total_applied_penalty": 0,
-    "model_execution_time": "2.21 s"
+    "model_execution_time": "2.03 s"
 }

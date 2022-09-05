@@ -1,15 +1,15 @@
 [
     {
         "i_inj": "50.0 pA",
-        "value": "48.9 mV"
+        "value": "51.14 mV"
     },
     {
         "i_inj": "60.0 pA",
-        "value": "46.49 mV"
+        "value": "50.97 mV"
     },
     {
         "i_inj": "70.0 pA",
-        "value": "49.15 mV"
+        "value": "51.4 mV"
     },
     {
         "i_inj": "80.0 pA",
@@ -17,10 +17,10 @@
     },
     {
         "i_inj": "90.0 pA",
-        "value": "48.49 mV"
+        "value": "50.71 mV"
     },
     {
         "i_inj": "100.0 pA",
-        "value": "47.57 mV"
+        "value": "50.94 mV"
     }
 ]

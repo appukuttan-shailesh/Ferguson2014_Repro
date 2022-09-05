@@ -72,7 +72,7 @@
         }, 
         {
             "i_inj": "120.0 pA", 
-            "value": "9.22 Hz"
+            "value": "9.21 Hz"
         }, 
         {
             "i_inj": "130.0 pA", 
@@ -96,11 +96,11 @@
         }, 
         {
             "i_inj": "180.0 pA", 
-            "value": "15.82 Hz"
+            "value": "15.83 Hz"
         }, 
         {
             "i_inj": "190.0 pA", 
-            "value": "16.98 Hz"
+            "value": "16.97 Hz"
         }, 
         {
             "i_inj": "200.0 pA", 
@@ -108,11 +108,11 @@
         }, 
         {
             "i_inj": "210.0 pA", 
-            "value": "18.87 Hz"
+            "value": "18.88 Hz"
         }, 
         {
             "i_inj": "220.0 pA", 
-            "value": "19.92 Hz"
+            "value": "19.95 Hz"
         }, 
         {
             "i_inj": "230.0 pA", 
@@ -120,11 +120,11 @@
         }, 
         {
             "i_inj": "240.0 pA", 
-            "value": "22.03 Hz"
+            "value": "22.06 Hz"
         }, 
         {
             "i_inj": "250.0 pA", 
-            "value": "23.09 Hz"
+            "value": "23.08 Hz"
         }, 
         {
             "i_inj": "260.0 pA", 
@@ -132,27 +132,27 @@
         }, 
         {
             "i_inj": "270.0 pA", 
-            "value": "25.06 Hz"
+            "value": "25.09 Hz"
         }, 
         {
             "i_inj": "280.0 pA", 
-            "value": "26.11 Hz"
+            "value": "26.07 Hz"
         }, 
         {
             "i_inj": "290.0 pA", 
-            "value": "26.81 Hz"
+            "value": "26.8 Hz"
         }, 
         {
             "i_inj": "300.0 pA", 
-            "value": "27.78 Hz"
+            "value": "27.76 Hz"
         }, 
         {
             "i_inj": "310.0 pA", 
-            "value": "28.74 Hz"
+            "value": "28.7 Hz"
         }, 
         {
             "i_inj": "320.0 pA", 
-            "value": "29.59 Hz"
+            "value": "29.66 Hz"
         }, 
         {
             "i_inj": "330.0 pA", 
@@ -160,11 +160,11 @@
         }, 
         {
             "i_inj": "340.0 pA", 
-            "value": "31.45 Hz"
+            "value": "31.51 Hz"
         }, 
         {
             "i_inj": "350.0 pA", 
-            "value": "32.47 Hz"
+            "value": "32.4 Hz"
         }
     ], 
     "prediction": [
@@ -238,7 +238,7 @@
         }, 
         {
             "i_inj": "120.0 pA", 
-            "value": "9.22 Hz"
+            "value": "9.21 Hz"
         }, 
         {
             "i_inj": "130.0 pA", 
@@ -262,11 +262,11 @@
         }, 
         {
             "i_inj": "180.0 pA", 
-            "value": "15.82 Hz"
+            "value": "15.83 Hz"
         }, 
         {
             "i_inj": "190.0 pA", 
-            "value": "16.98 Hz"
+            "value": "16.97 Hz"
         }, 
         {
             "i_inj": "200.0 pA", 
@@ -274,11 +274,11 @@
         }, 
         {
             "i_inj": "210.0 pA", 
-            "value": "18.87 Hz"
+            "value": "18.88 Hz"
         }, 
         {
             "i_inj": "220.0 pA", 
-            "value": "19.92 Hz"
+            "value": "19.95 Hz"
         }, 
         {
             "i_inj": "230.0 pA", 
@@ -286,11 +286,11 @@
         }, 
         {
             "i_inj": "240.0 pA", 
-            "value": "22.03 Hz"
+            "value": "22.06 Hz"
         }, 
         {
             "i_inj": "250.0 pA", 
-            "value": "23.09 Hz"
+            "value": "23.08 Hz"
         }, 
         {
             "i_inj": "260.0 pA", 
@@ -298,27 +298,27 @@
         }, 
         {
             "i_inj": "270.0 pA", 
-            "value": "25.06 Hz"
+            "value": "25.09 Hz"
         }, 
         {
             "i_inj": "280.0 pA", 
-            "value": "26.11 Hz"
+            "value": "26.07 Hz"
         }, 
         {
             "i_inj": "290.0 pA", 
-            "value": "26.81 Hz"
+            "value": "26.8 Hz"
         }, 
         {
             "i_inj": "300.0 pA", 
-            "value": "27.78 Hz"
+            "value": "27.76 Hz"
         }, 
         {
             "i_inj": "310.0 pA", 
-            "value": "28.74 Hz"
+            "value": "28.7 Hz"
         }, 
         {
             "i_inj": "320.0 pA", 
-            "value": "29.59 Hz"
+            "value": "29.66 Hz"
         }, 
         {
             "i_inj": "330.0 pA", 
@@ -326,11 +326,11 @@
         }, 
         {
             "i_inj": "340.0 pA", 
-            "value": "31.45 Hz"
+            "value": "31.51 Hz"
         }, 
         {
             "i_inj": "350.0 pA", 
-            "value": "32.47 Hz"
+            "value": "32.4 Hz"
         }
     ]
 }

@@ -27,6 +27,7 @@ def extract_FI_data(filepath):
     fi_data_str_mean = []
     for col in xlsx_data.loc[:, xlsx_data.columns.drop('t')]:
         efel.reset()
+        efel.setDoubleSetting('interp_step', 0.02) # ms
         data_eFEL = {
             "T": xlsx_data["t"],
             "V": xlsx_data[col],

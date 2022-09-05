@@ -2,33 +2,11 @@
     "observation": [
         {
             "i_inj": "60.0 pA",
-            "value": "48.07 mV"
+            "value": "51.49 mV"
         },
         {
             "i_inj": "70.0 pA",
-            "value": "46.72 mV"
-        },
-        {
-            "i_inj": "80.0 pA",
-            "value": "45.88 mV"
-        },
-        {
-            "i_inj": "90.0 pA",
-            "value": "46.66 mV"
-        },
-        {
-            "i_inj": "100.0 pA",
-            "value": "47.77 mV"
-        }
-    ],
-    "prediction": [
-        {
-            "i_inj": "60.0 pA",
-            "value": "46.95 mV"
-        },
-        {
-            "i_inj": "70.0 pA",
-            "value": "45.65 mV"
+            "value": "51.23 mV"
         },
         {
             "i_inj": "80.0 pA",
@@ -36,14 +14,36 @@
         },
         {
             "i_inj": "90.0 pA",
-            "value": "45.59 mV"
+            "value": "51.16 mV"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "46.67 mV"
+            "value": "51.16 mV"
         }
     ],
-    "score": "2.70",
+    "prediction": [
+        {
+            "i_inj": "60.0 pA",
+            "value": "51.49 mV"
+        },
+        {
+            "i_inj": "70.0 pA",
+            "value": "51.23 mV"
+        },
+        {
+            "i_inj": "80.0 pA",
+            "value": "51.5 mV"
+        },
+        {
+            "i_inj": "90.0 pA",
+            "value": "51.16 mV"
+        },
+        {
+            "i_inj": "100.0 pA",
+            "value": "51.16 mV"
+        }
+    ],
+    "score": "0.00",
     "total_applied_penalty": 0,
-    "model_execution_time": "5.08 s"
+    "model_execution_time": "4.85 s"
 }

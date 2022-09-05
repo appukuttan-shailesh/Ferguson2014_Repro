@@ -1,23 +1,23 @@
 {
-    "model_execution_time": "26.53 s", 
+    "model_execution_time": "25.59 s", 
     "score": "0.00", 
     "total_applied_penalty": 0, 
     "observation": [
         {
             "i_inj": "60.0 pA", 
-            "value": "530.6 ms"
+            "value": "530.66 ms"
         }, 
         {
             "i_inj": "70.0 pA", 
-            "value": "296.0 ms"
+            "value": "296.08 ms"
         }, 
         {
             "i_inj": "80.0 pA", 
-            "value": "215.4 ms"
+            "value": "215.42 ms"
         }, 
         {
             "i_inj": "90.0 pA", 
-            "value": "172.7 ms"
+            "value": "172.76 ms"
         }, 
         {
             "i_inj": "100.0 pA", 
@@ -27,19 +27,19 @@
     "prediction": [
         {
             "i_inj": "60.0 pA", 
-            "value": "530.6 ms"
+            "value": "530.66 ms"
         }, 
         {
             "i_inj": "70.0 pA", 
-            "value": "296.0 ms"
+            "value": "296.08 ms"
         }, 
         {
             "i_inj": "80.0 pA", 
-            "value": "215.4 ms"
+            "value": "215.42 ms"
         }, 
         {
             "i_inj": "90.0 pA", 
-            "value": "172.7 ms"
+            "value": "172.76 ms"
         }, 
         {
             "i_inj": "100.0 pA", 

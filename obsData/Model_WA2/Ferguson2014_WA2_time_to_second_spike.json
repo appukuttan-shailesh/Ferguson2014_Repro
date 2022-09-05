@@ -1,22 +1,22 @@
 [
     {
         "i_inj": "60.0 pA",
-        "value": "502.0 ms"
+        "value": "502.06 ms"
     },
     {
         "i_inj": "70.0 pA",
-        "value": "289.6 ms"
+        "value": "289.64 ms"
     },
     {
         "i_inj": "80.0 pA",
-        "value": "212.5 ms"
+        "value": "212.58 ms"
     },
     {
         "i_inj": "90.0 pA",
-        "value": "171.1 ms"
+        "value": "171.14 ms"
     },
     {
         "i_inj": "100.0 pA",
-        "value": "144.8 ms"
+        "value": "144.86 ms"
     }
 ]

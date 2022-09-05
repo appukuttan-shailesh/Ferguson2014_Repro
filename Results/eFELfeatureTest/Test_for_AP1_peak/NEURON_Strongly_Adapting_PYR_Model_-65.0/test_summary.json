@@ -2,11 +2,11 @@
     "observation": [
         {
             "i_inj": "10.0 pA",
-            "value": "14.37 mV"
+            "value": "20.88 mV"
         },
         {
             "i_inj": "20.0 pA",
-            "value": "11.13 mV"
+            "value": "20.43 mV"
         },
         {
             "i_inj": "30.0 pA",
@@ -18,7 +18,7 @@
         },
         {
             "i_inj": "50.0 pA",
-            "value": "13.84 mV"
+            "value": "20.28 mV"
         },
         {
             "i_inj": "60.0 pA",
@@ -26,29 +26,29 @@
         },
         {
             "i_inj": "70.0 pA",
-            "value": "9.26 mV"
+            "value": "21.54 mV"
         },
         {
             "i_inj": "80.0 pA",
-            "value": "8.77 mV"
+            "value": "20.87 mV"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "18.19 mV"
+            "value": "21.65 mV"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "11.68 mV"
+            "value": "21.18 mV"
         }
     ],
     "prediction": [
         {
             "i_inj": "10.0 pA",
-            "value": "17.5 mV"
+            "value": "21.33 mV"
         },
         {
             "i_inj": "20.0 pA",
-            "value": "12.06 mV"
+            "value": "18.93 mV"
         },
         {
             "i_inj": "30.0 pA",
@@ -60,11 +60,11 @@
         },
         {
             "i_inj": "50.0 pA",
-            "value": "11.85 mV"
+            "value": "18.68 mV"
         },
         {
             "i_inj": "60.0 pA",
-            "value": "16.76 mV"
+            "value": "20.52 mV"
         },
         {
             "i_inj": "70.0 pA",
@@ -76,14 +76,14 @@
         },
         {
             "i_inj": "90.0 pA",
-            "value": "14.15 mV"
+            "value": "17.65 mV"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "7.41 mV"
+            "value": "16.76 mV"
         }
     ],
-    "score": "6.16",
+    "score": "2.09",
     "total_applied_penalty": 0,
-    "model_execution_time": "3.56 s"
+    "model_execution_time": "3.28 s"
 }

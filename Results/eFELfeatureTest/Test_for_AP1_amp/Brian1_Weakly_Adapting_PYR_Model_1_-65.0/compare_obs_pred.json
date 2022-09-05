@@ -1,27 +1,27 @@
 [
     {
-        "pred": "48.07 mV", 
+        "pred": "51.49 mV", 
         "i_inj": "60.0 pA", 
-        "obs": "48.07 mV"
+        "obs": "51.49 mV"
     }, 
     {
-        "pred": "46.72 mV", 
+        "pred": "51.23 mV", 
         "i_inj": "70.0 pA", 
-        "obs": "46.72 mV"
+        "obs": "51.23 mV"
     }, 
     {
-        "pred": "45.88 mV", 
+        "pred": "51.5 mV", 
         "i_inj": "80.0 pA", 
-        "obs": "45.88 mV"
+        "obs": "51.5 mV"
     }, 
     {
-        "pred": "46.66 mV", 
+        "pred": "51.16 mV", 
         "i_inj": "90.0 pA", 
-        "obs": "46.66 mV"
+        "obs": "51.16 mV"
     }, 
     {
-        "pred": "47.77 mV", 
+        "pred": "51.16 mV", 
         "i_inj": "100.0 pA", 
-        "obs": "47.77 mV"
+        "obs": "51.16 mV"
     }
 ]
