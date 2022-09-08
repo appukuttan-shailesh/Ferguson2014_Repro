@@ -2,26 +2,26 @@
     {
         "i_inj": "60.0 pA",
         "obs": "502.06 ms",
-        "pred": "502.08 ms"
+        "pred": "502.06 ms"
     },
     {
         "i_inj": "70.0 pA",
         "obs": "289.64 ms",
-        "pred": "289.66 ms"
+        "pred": "289.64 ms"
     },
     {
         "i_inj": "80.0 pA",
         "obs": "212.58 ms",
-        "pred": "212.6 ms"
+        "pred": "212.58 ms"
     },
     {
         "i_inj": "90.0 pA",
         "obs": "171.14 ms",
-        "pred": "171.16 ms"
+        "pred": "171.14 ms"
     },
     {
         "i_inj": "100.0 pA",
         "obs": "144.86 ms",
-        "pred": "144.88 ms"
+        "pred": "144.86 ms"
     }
 ]

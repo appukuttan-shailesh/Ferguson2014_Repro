@@ -15,7 +15,7 @@ import eFELunit.capabilities as cap
 from brian import *
 
 class CA1_Pyr_Brian1_Template(sciunit.Model,
-                              cap.SomaInjectsCurrentProducesMembranePotential):
+                              cap.SomaReceivesCurrentProducesMembranePotential):
     '''
     Create a PYR model with the specified parameters
     '''

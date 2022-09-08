@@ -1,0 +1,15 @@
+               Parameter Strongly Adapting Model               Weakly Adapting Model 1               Weakly Adapting Model 2              
+               Parameter                  Brian1 Brian2 NEURON                  Brian1 Brian2 NEURON                  Brian1 Brian2 NEURON
+1             spikecount                    0.00   0.00   0.00                    0.00   0.00   0.00                    0.00   0.00   0.00
+2    time_to_first_spike                    0.00   0.02   0.10                    0.00   0.02   0.10                    0.00   0.02   0.09
+3   time_to_second_spike                    0.00   0.02   0.27                    0.00   0.02   0.34                    0.00   0.02   0.24
+4     time_to_last_spike                    0.00   0.02   1.47                    0.00   0.02   1.11                    0.00   0.02   0.71
+5                AP1_amp                    0.00   0.00   1.98                    0.00   0.00   1.43                    0.00   0.00   1.22
+6                AP2_amp                    0.00   0.00   2.59                    0.00   0.00   0.83                    0.00   0.00   1.00
+7             APlast_amp                    0.00   0.00   3.11                    0.00   0.00   0.64                    0.00   0.00   1.25
+8               AP1_peak                    0.00   0.00   2.09                    0.00   0.00   1.64                    0.00   0.00   1.39
+9               AP2_peak                    0.00   0.00   2.76                    0.00   0.00   0.99                    0.00   0.00   1.23
+10             AP1_width                    0.00   0.03   0.03                    0.00   0.03   0.05                    0.00   0.02   0.03
+11             AP2_width                    0.00   0.02   0.03                    0.00   0.02   0.02                    0.00   0.02   0.02
+12          APlast_width                    0.00   0.02   0.02                    0.00   0.03   0.02                    0.00   0.03   0.03
+13              iv_curve                    0.00   0.00   0.00                    0.00   0.00   0.00                    0.00   0.00   0.00

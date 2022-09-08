@@ -55,3 +55,16 @@ models_neuron = [
   "../Neuron/strongly_adapting_Pyr_model.py",
 ]
 c.upload(models_neuron, "2022_appukuttan_davison/models/Neuron", overwrite=True)
+
+# upload pip freeze files
+pip_freeze = [
+  "py2venv_pip_freeze.txt",
+  "py3venv_pip_freeze.txt"
+]
+c.upload(pip_freeze, "2022_appukuttan_davison/misc", overwrite=True)
+
+# upload figures
+figures = [
+  "figures/SciUnit.png"
+]
+c.upload(figures, "2022_appukuttan_davison/figures", overwrite=True)

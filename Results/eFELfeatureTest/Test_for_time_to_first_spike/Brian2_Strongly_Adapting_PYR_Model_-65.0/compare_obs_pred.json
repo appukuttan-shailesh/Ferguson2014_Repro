@@ -2,51 +2,51 @@
     {
         "i_inj": "10.0 pA",
         "obs": "107.94 ms",
-        "pred": "107.96 ms"
+        "pred": "107.94 ms"
     },
     {
         "i_inj": "20.0 pA",
         "obs": "59.46 ms",
-        "pred": "59.48 ms"
+        "pred": "59.46 ms"
     },
     {
         "i_inj": "30.0 pA",
         "obs": "42.5 ms",
-        "pred": "42.52 ms"
+        "pred": "42.5 ms"
     },
     {
         "i_inj": "40.0 pA",
         "obs": "33.7 ms",
-        "pred": "33.72 ms"
+        "pred": "33.7 ms"
     },
     {
         "i_inj": "50.0 pA",
         "obs": "28.24 ms",
-        "pred": "28.26 ms"
+        "pred": "28.24 ms"
     },
     {
         "i_inj": "60.0 pA",
         "obs": "24.5 ms",
-        "pred": "24.52 ms"
+        "pred": "24.5 ms"
     },
     {
         "i_inj": "70.0 pA",
         "obs": "21.78 ms",
-        "pred": "21.8 ms"
+        "pred": "21.78 ms"
     },
     {
         "i_inj": "80.0 pA",
         "obs": "19.68 ms",
-        "pred": "19.7 ms"
+        "pred": "19.68 ms"
     },
     {
         "i_inj": "90.0 pA",
         "obs": "18.02 ms",
-        "pred": "18.04 ms"
+        "pred": "18.02 ms"
     },
     {
         "i_inj": "100.0 pA",
         "obs": "16.66 ms",
-        "pred": "16.68 ms"
+        "pred": "16.66 ms"
     }
 ]

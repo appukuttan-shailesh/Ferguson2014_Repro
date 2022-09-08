@@ -15,7 +15,7 @@ import eFELunit.capabilities as cap
 from brian2 import *
 
 class CA1_Pyr_Brian2_Template(sciunit.Model,
-                              cap.SomaInjectsCurrentProducesMembranePotential):
+                              cap.SomaReceivesCurrentProducesMembranePotential):
     '''
     Create a PYR model with the specified parameters
     '''
@@ -121,7 +121,7 @@ class CA1_Pyr_Brian2_Template(sciunit.Model,
         defaultclock.dt = dt * ms
 
         # record membrane potential of neuron
-        monitor_v = StateMonitor(self.model, 'v', record=True)
+        monitor_v = StateMonitor(self.model, 'v', record=True, when="end")
 
         # run simulation
         duration = tstop * ms + defaultclock.dt # to include final time step
@@ -146,7 +146,7 @@ class CA1_Pyr_Brian2_Template(sciunit.Model,
         self.model.stim_stop = 900 * ms
 
         # record membrane potential of neuron
-        monitor_v = StateMonitor(self.model, 'v', record=True)
+        monitor_v = StateMonitor(self.model, 'v', record=True, when="end")
 
         # run simulation
         duration = 1000 * ms + defaultclock.dt # to include final time step

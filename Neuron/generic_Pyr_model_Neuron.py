@@ -17,7 +17,7 @@ import eFELunit.capabilities as cap
 from neuron import h, gui
 
 class CA1_Pyr_Neuron_Template(sciunit.Model,
-                              cap.SomaInjectsCurrentProducesMembranePotential):
+                              cap.SomaReceivesCurrentProducesMembranePotential):
     '''
     Create a PYR model with the specified parameters
     '''
