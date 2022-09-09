@@ -107,6 +107,8 @@ plt.xlabel("I_inj (pA)")
 plt.ylabel("Peak voltage (mV)")
 
 fig.tight_layout()
+fig_name = os.path.join(output_directory, "script_07_compare_{}.pdf".format(feature))
+plt.savefig(fig_name, dpi=600, bbox_inches='tight')
 fig_name = os.path.join(output_directory, "script_07_compare_{}.png".format(feature))
 plt.savefig(fig_name, dpi=600, bbox_inches='tight')
 plt.show()
