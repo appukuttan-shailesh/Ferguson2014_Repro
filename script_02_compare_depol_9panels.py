@@ -162,4 +162,6 @@ fig.legend(['Original', 'Brian1', 'Brian2', 'NEURON'], loc='lower center', bbox_
 
 fig_name = os.path.join(output_directory, "script_02_depol_plot_9panels.pdf")
 plt.savefig(fig_name, dpi=600, bbox_inches='tight')
+fig_name = os.path.join(output_directory, "script_02_depol_plot_9panels.png")
+plt.savefig(fig_name, dpi=600, bbox_inches='tight')
 plt.show()

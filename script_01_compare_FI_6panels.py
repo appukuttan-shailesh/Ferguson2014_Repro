@@ -256,4 +256,6 @@ plt.subplots_adjust(left=0.125,
 
 fig_name = os.path.join(output_directory, "script_01_FI_plot_6panels_" + str(v_init) + ".pdf")
 plt.savefig(fig_name, dpi=600, bbox_inches='tight')
+fig_name = os.path.join(output_directory, "script_01_FI_plot_6panels_" + str(v_init) + ".png")
+plt.savefig(fig_name, dpi=600, bbox_inches='tight')
 plt.show()
