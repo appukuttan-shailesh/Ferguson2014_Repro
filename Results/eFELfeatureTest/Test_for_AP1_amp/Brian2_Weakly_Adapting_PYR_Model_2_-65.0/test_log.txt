@@ -1,4 +1,4 @@
 Overall score: 0.00
-Model execution time: 7.25 s
+Model execution time: 5.95 s
 Total penalty: 0
 ------------------------------------------------------------
