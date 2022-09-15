@@ -1,0 +1,22 @@
+{
+  "model_instance_id": "0683149c-c609-4a43-a680-e83dea0a910d",
+  "test_instance_id": "2ad44dbe-45b3-4383-a740-7d94f8e7f896",
+  "results_storage": [
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/Original_Model/Readme.txt",
+      "size": 297
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/Original_Model/json/Ferguson2014_SA_Finitial_-55.0.json",
+      "size": 2420
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/Original_Model/xlsx/data_Original_SA_FI_-55.0.xlsx",
+      "size": 22760449
+    }
+  ],
+  "score": 0.0,
+  "passed": null,
+  "project_id": "live-paper-2022-appukuttan-davison",
+  "normalized_score": 0.0
+}
