@@ -1,0 +1,52 @@
+// Brian2 - APlast_width - model_type = "weak2"
+// Registered result = a53977ff-45df-461b-a611-45d3d4bb2aca
+{
+  "model_instance_id": "1920ea69-174a-4870-9b2d-804deb641525",
+  "test_instance_id": "0b5fdc34-13bd-4b7b-812f-1c908f9974a7",
+  "results_storage": [
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/2022-09-14/Weakly_adapting_CA1_Pyr_Model_2_20220914-182540/response_stim_50.0pA.pdf",
+      "size": 13018
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/2022-09-14/Weakly_adapting_CA1_Pyr_Model_2_20220914-182540/response_stim_60.0pA.pdf",
+      "size": 12942
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/2022-09-14/Weakly_adapting_CA1_Pyr_Model_2_20220914-182540/response_stim_70.0pA.pdf",
+      "size": 13721
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/2022-09-14/Weakly_adapting_CA1_Pyr_Model_2_20220914-182540/response_stim_80.0pA.pdf",
+      "size": 13824
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/2022-09-14/Weakly_adapting_CA1_Pyr_Model_2_20220914-182540/response_stim_90.0pA.pdf",
+      "size": 14537
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/2022-09-14/Weakly_adapting_CA1_Pyr_Model_2_20220914-182540/response_stim_100.0pA.pdf",
+      "size": 14299
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/2022-09-14/Weakly_adapting_CA1_Pyr_Model_2_20220914-182540/result_plot.pdf",
+      "size": 18113
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/2022-09-14/Weakly_adapting_CA1_Pyr_Model_2_20220914-182540/compare_obs_pred.json",
+      "size": 561
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/2022-09-14/Weakly_adapting_CA1_Pyr_Model_2_20220914-182540/test_summary.json",
+      "size": 1156
+    },
+    {
+      "download_url": "https://drive.ebrains.eu/lib/33c626b1-c437-4498-bdbb-9918eb3f0b66/file/validation_results/2022-09-14/Weakly_adapting_CA1_Pyr_Model_2_20220914-182540/test_log.txt",
+      "size": 127
+    }
+  ],
+  "score": 0.027080128015453224,
+  "passed": null,
+  "project_id": "live-paper-2022-appukuttan-davison",
+  "normalized_score": 0.027080128015453224
+}
