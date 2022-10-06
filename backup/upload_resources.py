@@ -46,15 +46,25 @@ models_brian2 = [
 ]
 c.upload(models_brian2, "2022_appukuttan_davison/models/Brian2", overwrite=True)
 
-# upload NEURON model source codes
-models_neuron = [
+# upload NEURON model source codes (derivimplicit)
+models_neuron_derivimplicit = [
+  "../Neuron_derivimplicit/generic_Pyr_model_Neuron.py",
+  "../Neuron_derivimplicit/Pyr.mod",
+  "../Neuron_derivimplicit/run_Neuron_stimarg.py",
+  "../Neuron_derivimplicit/generic_Pyr_model_Neuron_with_mod_file.zip",
+  "../Neuron_derivimplicit/strongly_adapting_Pyr_model.py",
+]
+c.upload(models_neuron_derivimplicit, "2022_appukuttan_davison/models/Neuron_derivimplicit", overwrite=True)
+
+# upload NEURON model source codes (euler)
+models_neuron_euler = [
   "../Neuron/generic_Pyr_model_Neuron.py",
   "../Neuron/Pyr.mod",
   "../Neuron/run_Neuron_stimarg.py",
   "../Neuron/generic_Pyr_model_Neuron_with_mod_file.zip",
   "../Neuron/strongly_adapting_Pyr_model.py",
 ]
-c.upload(models_neuron, "2022_appukuttan_davison/models/Neuron", overwrite=True)
+c.upload(models_neuron_euler, "2022_appukuttan_davison/models/Neuron", overwrite=True)
 
 # upload pip freeze files
 pip_freeze = [
@@ -68,3 +78,10 @@ figures = [
   "figures/SciUnit.png"
 ]
 c.upload(figures, "2022_appukuttan_davison/figures", overwrite=True)
+
+# upload Jupyter Notebooks
+pip_freeze = [
+  "Brian2_eFELunit_example.ipynb",
+  "Neuron_eFELunit_example.ipynb"
+]
+c.upload(pip_freeze, "2022_appukuttan_davison/jupyter", overwrite=True)

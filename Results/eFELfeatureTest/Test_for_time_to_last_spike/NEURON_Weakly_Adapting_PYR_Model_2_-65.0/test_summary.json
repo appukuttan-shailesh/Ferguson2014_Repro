@@ -28,30 +28,30 @@
     "prediction": [
         {
             "i_inj": "50.0 pA",
-            "value": "675.84 ms"
+            "value": "676.02 ms"
         },
         {
             "i_inj": "60.0 pA",
-            "value": "501.84 ms"
+            "value": "502.16 ms"
         },
         {
             "i_inj": "70.0 pA",
-            "value": "796.82 ms"
+            "value": "797.6 ms"
         },
         {
             "i_inj": "80.0 pA",
-            "value": "713.86 ms"
+            "value": "714.76 ms"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "884.46 ms"
+            "value": "885.54 ms"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "827.86 ms"
+            "value": "829.1 ms"
         }
     ],
-    "score": "0.71",
+    "score": "0.14",
     "total_applied_penalty": 0,
-    "model_execution_time": "2.17 s"
+    "model_execution_time": "1.79 s"
 }

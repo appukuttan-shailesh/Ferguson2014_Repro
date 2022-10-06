@@ -20,7 +20,7 @@ defusedxml==0.7.1
 dill==0.3.5.1
 ebrains-drive==0.4.0
 efel==3.2.4
-eFELunit==2.0.1
+eFELunit==2.0.3
 entrypoints==0.3
 enum34==1.1.10
 functools32==3.2.3.post2

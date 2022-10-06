@@ -283,8 +283,6 @@ static void nrn_alloc(Prop* _prop) {
  static HocStateTolerance _hoc_state_tol[] = {
  0,0
 };
- static void _thread_mem_init(Datum*);
- static void _thread_cleanup(Datum*);
  extern Symbol* hoc_lookup(const char*);
 extern void _nrn_thread_reg(int, int, void(*)(Datum*));
 extern void _nrn_thread_table_reg(int, void(*)(double*, Datum*, Datum*, NrnThread*, int));
@@ -296,14 +294,10 @@ extern void _cvode_abstol( Symbol**, double*, int);
   _initlists();
  	_pointtype = point_register_mech(_mechanism,
 	 nrn_alloc,nrn_cur, nrn_jacob, nrn_state, nrn_init,
-	 hoc_nrnpointerindex, 5,
+	 hoc_nrnpointerindex, 1,
 	 _hoc_create_pnt, _hoc_destroy_pnt, _member_func);
-  _extcall_thread = (Datum*)ecalloc(4, sizeof(Datum));
-  _thread_mem_init(_extcall_thread);
  _mechtype = nrn_get_mechtype(_mechanism[1]);
      _nrn_setdata_reg(_mechtype, _setdata);
-     _nrn_thread_reg(_mechtype, 1, _thread_mem_init);
-     _nrn_thread_reg(_mechtype, 0, _thread_cleanup);
  #if NMODL_TEXT
   hoc_reg_nmodl_text(_mechtype, nmodl_file_text);
   hoc_reg_nmodl_filename(_mechtype, nmodl_filename);
@@ -327,15 +321,10 @@ static int _ninits = 0;
 static int _match_recurse=1;
 static void _modl_cleanup(){ _match_recurse=1;}
  
-#define _deriv1_advance _thread[0]._i
-#define _dith1 1
-#define _recurse _thread[2]._i
-#define _newtonspace1 _thread[3]._pvoid
- 
 static int _ode_spec1(_threadargsproto_);
 /*static int _ode_matsol1(_threadargsproto_);*/
- static int _slist2[2];
-  static int _slist1[2], _dlist1[2];
+ static double *_temp1;
+ static int _slist1[2], _dlist1[2];
  static int states(_threadargsproto_);
  
 /*CVODE*/
@@ -353,23 +342,10 @@ static int _ode_spec1(_threadargsproto_);
  /*END CVODE*/
  
 static int states (double* _p, Datum* _ppvar, Datum* _thread, NrnThread* _nt) {int _reset=0; int error = 0;
- { double* _savstate1 = _thread[_dith1]._pval;
- double* _dlist2 = _thread[_dith1]._pval + 2;
- int _counte = -1;
- if (!_recurse) {
- _recurse = 1;
- {int _id; for(_id=0; _id < 2; _id++) { _savstate1[_id] = _p[_slist1[_id]];}}
- error = nrn_newton_thread(_newtonspace1, 2,_slist2, _p, states, _dlist2, _ppvar, _thread, _nt);
- _recurse = 0; if(error) {abort_run(error);}}
  {
    Dum = a * ( b * ( vm - vr ) - um ) ;
    Dvm = ( k * ( vm - vr ) * ( vm - vt ) + Ishift + Iext - um ) / Cm ;
-   {int _id; for(_id=0; _id < 2; _id++) {
-if (_deriv1_advance) {
- _dlist2[++_counte] = _p[_dlist1[_id]] - (_p[_slist1[_id]] - _savstate1[_id])/dt;
- }else{
-_dlist2[++_counte] = _p[_slist1[_id]] - _savstate1[_id];}}}
- } }
+   }
  return _reset;}
  
 static int _ode_count(int _type){ return 2;}
@@ -411,16 +387,6 @@ static void _ode_matsol(NrnThread* _nt, _Memb_list* _ml, int _type) {
     v = NODEV(_nd);
  _ode_matsol_instance1(_threadargs_);
  }}
- 
-static void _thread_mem_init(Datum* _thread) {
-   _thread[_dith1]._pval = (double*)ecalloc(4, sizeof(double));
-   _newtonspace1 = nrn_cons_newtonspace(2);
- }
- 
-static void _thread_cleanup(Datum* _thread) {
-   free((void*)(_thread[_dith1]._pval));
-   nrn_destroy_newtonspace(_newtonspace1);
- }
 
 static void initmodel(double* _p, Datum* _ppvar, Datum* _thread, NrnThread* _nt) {
   int _i; double _save;{
@@ -534,9 +500,7 @@ for (_iml = 0; _iml < _cntml; ++_iml) {
   }
  v=_v;
 {
- {  _deriv1_advance = 1;
- derivimplicit_thread(2, _slist1, _dlist1, _p, states, _ppvar, _thread, _nt);
-_deriv1_advance = 0;
+ {   euler_thread(2, _slist1, _dlist1, _p, states, _ppvar, _thread, _nt);
      if (secondorder) {
     int _i;
     for (_i = 0; _i < 2; ++_i) {
@@ -572,8 +536,6 @@ static void _initlists(){
   if (!_first) return;
  _slist1[0] = um_columnindex;  _dlist1[0] = Dum_columnindex;
  _slist1[1] = vm_columnindex;  _dlist1[1] = Dvm_columnindex;
- _slist2[0] = um_columnindex;
- _slist2[1] = vm_columnindex;
 _first = 0;
 }
 
@@ -658,7 +620,7 @@ static const char* nmodl_file_text =
   "        Iext = 0\n"
   "    }\n"
   "\n"
-  "    SOLVE states METHOD derivimplicit\n"
+  "    SOLVE states METHOD euler\n"
   "}\n"
   "\n"
   "DERIVATIVE states {\n"

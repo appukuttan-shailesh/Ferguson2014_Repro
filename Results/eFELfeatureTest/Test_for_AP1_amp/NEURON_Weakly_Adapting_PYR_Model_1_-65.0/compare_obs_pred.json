@@ -2,26 +2,26 @@
     {
         "i_inj": "60.0 pA",
         "obs": "51.49 mV",
-        "pred": "49.37 mV"
+        "pred": "50.54 mV"
     },
     {
         "i_inj": "70.0 pA",
         "obs": "51.23 mV",
-        "pred": "49.88 mV"
+        "pred": "49.77 mV"
     },
     {
         "i_inj": "80.0 pA",
         "obs": "51.5 mV",
-        "pred": "51.53 mV"
+        "pred": "50.48 mV"
     },
     {
         "i_inj": "90.0 pA",
         "obs": "51.16 mV",
-        "pred": "49.64 mV"
+        "pred": "50.32 mV"
     },
     {
         "i_inj": "100.0 pA",
         "obs": "51.16 mV",
-        "pred": "49.92 mV"
+        "pred": "49.45 mV"
     }
 ]

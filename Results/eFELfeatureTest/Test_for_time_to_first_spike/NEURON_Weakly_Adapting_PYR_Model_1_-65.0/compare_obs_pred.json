@@ -2,26 +2,26 @@
     {
         "i_inj": "60.0 pA",
         "obs": "199.64 ms",
-        "pred": "199.54 ms"
+        "pred": "199.72 ms"
     },
     {
         "i_inj": "70.0 pA",
         "obs": "127.96 ms",
-        "pred": "127.86 ms"
+        "pred": "128.02 ms"
     },
     {
         "i_inj": "80.0 pA",
         "obs": "97.08 ms",
-        "pred": "97.0 ms"
+        "pred": "97.14 ms"
     },
     {
         "i_inj": "90.0 pA",
         "obs": "79.46 ms",
-        "pred": "79.36 ms"
+        "pred": "79.52 ms"
     },
     {
         "i_inj": "100.0 pA",
         "obs": "67.94 ms",
-        "pred": "67.82 ms"
+        "pred": "67.96 ms"
     }
 ]

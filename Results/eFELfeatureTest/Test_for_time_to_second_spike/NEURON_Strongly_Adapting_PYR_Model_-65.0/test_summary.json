@@ -44,46 +44,46 @@
     "prediction": [
         {
             "i_inj": "10.0 pA",
-            "value": "555.44 ms"
+            "value": "556.06 ms"
         },
         {
             "i_inj": "20.0 pA",
-            "value": "173.66 ms"
+            "value": "174.1 ms"
         },
         {
             "i_inj": "30.0 pA",
-            "value": "106.3 ms"
+            "value": "106.64 ms"
         },
         {
             "i_inj": "40.0 pA",
-            "value": "79.12 ms"
+            "value": "79.44 ms"
         },
         {
             "i_inj": "50.0 pA",
-            "value": "64.1 ms"
+            "value": "64.42 ms"
         },
         {
             "i_inj": "60.0 pA",
-            "value": "54.46 ms"
+            "value": "54.76 ms"
         },
         {
             "i_inj": "70.0 pA",
-            "value": "47.7 ms"
+            "value": "47.96 ms"
         },
         {
             "i_inj": "80.0 pA",
-            "value": "42.62 ms"
+            "value": "42.9 ms"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "38.7 ms"
+            "value": "38.96 ms"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "35.54 ms"
+            "value": "35.84 ms"
         }
     ],
-    "score": "0.27",
+    "score": "0.09",
     "total_applied_penalty": 0,
-    "model_execution_time": "3.47 s"
+    "model_execution_time": "2.93 s"
 }

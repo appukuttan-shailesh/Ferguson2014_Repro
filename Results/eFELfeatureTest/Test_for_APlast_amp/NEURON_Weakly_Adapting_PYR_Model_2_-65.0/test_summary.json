@@ -28,30 +28,30 @@
     "prediction": [
         {
             "i_inj": "50.0 pA",
-            "value": "50.06 mV"
+            "value": "50.44 mV"
         },
         {
             "i_inj": "60.0 pA",
-            "value": "50.74 mV"
+            "value": "50.51 mV"
         },
         {
             "i_inj": "70.0 pA",
-            "value": "50.6 mV"
+            "value": "50.48 mV"
         },
         {
             "i_inj": "80.0 pA",
-            "value": "48.96 mV"
+            "value": "49.31 mV"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "49.82 mV"
+            "value": "49.72 mV"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "50.11 mV"
+            "value": "51.21 mV"
         }
     ],
-    "score": "1.25",
+    "score": "1.08",
     "total_applied_penalty": 0,
-    "model_execution_time": "2.24 s"
+    "model_execution_time": "1.82 s"
 }

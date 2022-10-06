@@ -72,7 +72,7 @@ BREAKPOINT {
         Iext = 0
     }
 
-    SOLVE states METHOD derivimplicit
+    SOLVE states METHOD euler
 }
 
 DERIVATIVE states {

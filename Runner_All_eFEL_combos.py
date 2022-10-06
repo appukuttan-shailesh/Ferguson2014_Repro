@@ -27,9 +27,10 @@ else:
 
 v_init = -65.0 # mV
 
-py2env = "/home/shailesh/.virtualenvs/ferg_py2/bin/python2"
-py3env = "/home/shailesh/.virtualenvs/py3env/bin/python"
-# py3env = "/home/shailesh/.virtualenvs/myenv/bin/python"
+# py2env = "/home/shailesh/.virtualenvs/ferg_py2/bin/python2"
+py2env = "/home/shailesh/.virtualenvs/py2venv/bin/python"
+# py3env = "/home/shailesh/.virtualenvs/py3env/bin/python"
+py3env = "/home/shailesh/.virtualenvs/py3venv/bin/python"
 if simulator == "Brian1":
     pyenv = py2env
 else:

@@ -24,26 +24,26 @@
     "prediction": [
         {
             "i_inj": "60.0 pA",
-            "value": "1.32 ms"
+            "value": "1.36 ms"
         },
         {
             "i_inj": "70.0 pA",
-            "value": "1.34 ms"
+            "value": "1.35 ms"
         },
         {
             "i_inj": "80.0 pA",
-            "value": "1.31 ms"
+            "value": "1.34 ms"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "1.32 ms"
+            "value": "1.36 ms"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "1.3 ms"
+            "value": "1.37 ms"
         }
     ],
-    "score": "0.02",
+    "score": "0.05",
     "total_applied_penalty": 0,
-    "model_execution_time": "1.79 s"
+    "model_execution_time": "1.38 s"
 }

@@ -2,31 +2,31 @@
     {
         "i_inj": "50.0 pA",
         "obs": "675.92 ms",
-        "pred": "675.84 ms"
+        "pred": "676.02 ms"
     },
     {
         "i_inj": "60.0 pA",
         "obs": "502.06 ms",
-        "pred": "501.84 ms"
+        "pred": "502.16 ms"
     },
     {
         "i_inj": "70.0 pA",
         "obs": "797.42 ms",
-        "pred": "796.82 ms"
+        "pred": "797.6 ms"
     },
     {
         "i_inj": "80.0 pA",
         "obs": "714.6 ms",
-        "pred": "713.86 ms"
+        "pred": "714.76 ms"
     },
     {
         "i_inj": "90.0 pA",
         "obs": "885.42 ms",
-        "pred": "884.46 ms"
+        "pred": "885.54 ms"
     },
     {
         "i_inj": "100.0 pA",
         "obs": "828.94 ms",
-        "pred": "827.86 ms"
+        "pred": "829.1 ms"
     }
 ]

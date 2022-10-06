@@ -2,31 +2,31 @@
     {
         "i_inj": "50.0 pA",
         "obs": "675.92 ms",
-        "pred": "675.84 ms"
+        "pred": "676.02 ms"
     },
     {
         "i_inj": "60.0 pA",
         "obs": "198.74 ms",
-        "pred": "198.66 ms"
+        "pred": "198.82 ms"
     },
     {
         "i_inj": "70.0 pA",
         "obs": "127.82 ms",
-        "pred": "127.72 ms"
+        "pred": "127.9 ms"
     },
     {
         "i_inj": "80.0 pA",
         "obs": "97.02 ms",
-        "pred": "96.92 ms"
+        "pred": "97.1 ms"
     },
     {
         "i_inj": "90.0 pA",
         "obs": "79.42 ms",
-        "pred": "79.32 ms"
+        "pred": "79.44 ms"
     },
     {
         "i_inj": "100.0 pA",
         "obs": "67.92 ms",
-        "pred": "67.82 ms"
+        "pred": "67.96 ms"
     }
 ]

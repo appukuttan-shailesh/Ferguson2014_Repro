@@ -26,9 +26,10 @@ with open(os.path.join(".", "obsData", "FromOriginal", "Ferguson2014_WA2_Finitia
 with open(os.path.join(".", "obsData", "FromOriginal", "Ferguson2014_WA2_Ffinal_" + str(v_init) + ".json")) as json_file:
     data_WA2_final = json.load(json_file)
 
-py2env = "/home/shailesh/.virtualenvs/ferg_py2/bin/python2"
-py3env = "/home/shailesh/.virtualenvs/py3env/bin/python"
-# py3env = "/home/shailesh/.virtualenvs/myenv/bin/python"
+# py2env = "/home/shailesh/.virtualenvs/ferg_py2/bin/python2"
+py2env = "/home/shailesh/.virtualenvs/py2venv/bin/python"
+# py3env = "/home/shailesh/.virtualenvs/py3env/bin/python"
+py3env = "/home/shailesh/.virtualenvs/py3venv/bin/python"
 if simulator == "Brian1":
     pyenv = py2env
 else:

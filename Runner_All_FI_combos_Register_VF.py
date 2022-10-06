@@ -8,9 +8,10 @@ import subprocess
 simulator = sys.argv[1]
 v_init = float(sys.argv[2])
 
-py2env = "/home/shailesh/.virtualenvs/ferg_py2/bin/python2"
+# py2env = "/home/shailesh/.virtualenvs/ferg_py2/bin/python2"
+py2env = "/home/shailesh/.virtualenvs/py2venv/bin/python"
 # py3env = "/home/shailesh/.virtualenvs/py3env/bin/python"
-py3env = "/home/shailesh/.virtualenvs/myenv/bin/python"
+py3env = "/home/shailesh/.virtualenvs/py3venv/bin/python"
 if simulator == "Brian1":
     pyenv = py2env
 else:
@@ -24,7 +25,7 @@ from hbp_validation_framework import utils
 from {simulator}.generic_Pyr_model_{simulator} import CA1_Pyr_{simulator}_Template
 model = CA1_Pyr_{simulator}_Template(type='{model_type}', v_init={v_init})
 model.model_alias = '{model_alias}'
-model.model_version = '{simulator}'
+model.model_version = 'Neuron_Euler'
 result, score = utils.run_test_standalone(username = "shailesh",
                             model = model,
                             test_alias = "ferg2014_{feat_abbrev}_{model_type}_{v_init_str}",

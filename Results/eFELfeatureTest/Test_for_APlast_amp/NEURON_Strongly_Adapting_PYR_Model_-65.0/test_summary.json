@@ -44,46 +44,46 @@
     "prediction": [
         {
             "i_inj": "10.0 pA",
-            "value": "57.0 mV"
+            "value": "58.31 mV"
         },
         {
             "i_inj": "20.0 pA",
-            "value": "58.44 mV"
+            "value": "61.72 mV"
         },
         {
             "i_inj": "30.0 pA",
-            "value": "59.66 mV"
+            "value": "60.35 mV"
         },
         {
             "i_inj": "40.0 pA",
-            "value": "58.04 mV"
+            "value": "56.63 mV"
         },
         {
             "i_inj": "50.0 pA",
-            "value": "58.07 mV"
+            "value": "60.36 mV"
         },
         {
             "i_inj": "60.0 pA",
-            "value": "57.15 mV"
+            "value": "59.83 mV"
         },
         {
             "i_inj": "70.0 pA",
-            "value": "59.35 mV"
+            "value": "59.07 mV"
         },
         {
             "i_inj": "80.0 pA",
-            "value": "58.34 mV"
+            "value": "56.88 mV"
         },
         {
             "i_inj": "90.0 pA",
-            "value": "58.83 mV"
+            "value": "60.13 mV"
         },
         {
             "i_inj": "100.0 pA",
-            "value": "58.62 mV"
+            "value": "56.57 mV"
         }
     ],
-    "score": "3.11",
+    "score": "2.99",
     "total_applied_penalty": 0,
-    "model_execution_time": "3.59 s"
+    "model_execution_time": "2.85 s"
 }
